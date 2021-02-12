@@ -26,6 +26,12 @@ To begin my analysis I used Seaborn's heatmap function to create a correlation m
 ### Correlation Matrix
 ![Correlation Matrix](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/CorrelationMatrix2019.png)
 
+<details>
+<summary>Column Descriptions of Correlation Matrix</summary>
+<ul><li>This dropdown contains</li>
+<li>a list!</li></ul>
+</details>
+
 Relevant column names are described below:
 * `Score` = Overall happiness score WHR
 * `Social Support` = Amount of social support in a country based on policies and societal factors
