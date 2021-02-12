@@ -5,6 +5,12 @@
 
 
 ## *TL;DR*
+* EDA and follow up analysis of World Happiness Report scores and Global Food Security metrics
+* Goal: Identify and visualize relationships between the two reports and verify hypothesis
+* Hypothesis: Countries with a higher World Happiness Report score will have a better score on the food security metrics outlined in this report (overall, affordability, availability, quality and safety, natural resources and resilience)
+
+
+### Findings at a Glance
 * As expected, the higher a country scores on the World Happiness Report, the higher it is likely to score in food security metrics (Overall security, affordability, availability, quality, and resilience of supply)
   * Strong correlation between food security metrics and certain World Happiness Report variables (Score, GDP/capita, Social Support, and Healthy Life Expectancy); values between 0.75-**0.95**
   * Weaker correlation between other WHR variables (Freedom to Make Life Choices and Perceptions of Corruption) was less impactful, however still signficant ranging from 0.35-0.5
