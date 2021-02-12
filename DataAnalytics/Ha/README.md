@@ -13,9 +13,9 @@ Libraries Used: Numpy, Pandas, Seaborn, SQLite3, Plotly
 
 ## Introduction 
 This projects is an attempt to visualize the relationships between World Happiness Report scores and societal wellness metrics in the context of food security, specifically food afforability, availability, quality, and the resilience of the country's food supply. Data analysis and visualization was conducted in Jupyter Notebooks with Python 3 and its various libraries listed above.
+
 * Data sourced from World Happiness Project and Global Food Security Index reports (2015-2019)
 * Global Food Security Index tracks afforablilty, availability, quality and safety, and resilience of the food supply in a given country (https://foodsecurityindex.eiu.com/)
 * World Happiness Project reports a generalized score after analyzing multiple key metrics such as societal freedom, GDP per capita, and more (https://worldhappiness.report/ed/2020/)
 * Data was gathered from the websites linked above before being processed and cleaned with Python's Pandas functions by me
 
-wofaerou heaggoeh gohse oghsoghngh 
