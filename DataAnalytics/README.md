@@ -14,6 +14,12 @@ I was introduced to coding my last year in university and since then have cultiv
 #### World Map of Reported Happines Report Scores 2019 (Higher is Better)
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/World_HappScore_2019.png)
 
+#### High Correlation Between GDP/capita (bubble size), Affordability of Food, and Healthy Life Expectancy in 2019 by Region
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/Aff_HLE_GDP_bubble_2019.png)
+
+#### Low Correlation (~0.45) Between Availability in Food Supply and Freedom to Make Life Choices
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/AV_FMLC_GDP_bubble_2019.png)
+
 
 
 | Contact Me    | Links         |
