@@ -56,6 +56,9 @@ To begin my analysis I used Seaborn's heatmap function to create a correlation m
 
 Seen within the key sections are two distinct areas, one of high correlation values and one of weaker, yet still significant, values. `Generosity` is not included as it has no significant correlation. After examining all other correlation matrices (2015-2018), the pattern was found in all of them in high confidence with almost identical bounds and values.
 
+Other areas of interest could be the highly negative correlation of the first two columns of the key section, however, these are easily exlpained by the nature of the index and placement numbering. Index begins at 0 as increases incrementally with each row, whereas the scores decrease as the placement gets lower.
+
+
 |Correlation      | Value Range          | Starting Column  | Ending Column |
 | ------------- |:-------------:|:-----:|:-----:|
 | STRONG     | 0.75-0.95 | `index` | `Healthy life expectancy` |
@@ -72,4 +75,7 @@ Within the two defined areas there are certain areas that are more interesting t
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/QS_HLE_GDP_bubble_2019.png)
 
 The same trend is repeated through all variations of food security metrics compared to WHR columns in the high correlation group. Shown below is another example of the trend seen through all years with affordability scores compared to reported happiness scores. 
-![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/Aff_HLE_GDP_bubble_2019.png)
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/Aff_Score_GDP_bubble_2019.png)
+
+### Low Correlation Area
+
