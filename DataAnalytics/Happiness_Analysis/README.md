@@ -1,7 +1,7 @@
 # Countrywide Happiness as a Proxy of Food Security and Quality
-<br>**Concepts Applied:** Data Gathering, Data Cleaning/Scrubbing, Data Analysis, Data Visualization</br>
-<br>**Language:** Python</br>
-<br>**Libraries Used:** Numpy, Pandas, Seaborn, SQLite3, Plotly</br>
+**Concepts Applied:** Data Gathering, Data Cleaning/Scrubbing, Data Analysis, Data Visualization
+**Language:** Python
+**Libraries Used:** Numpy, Pandas, Seaborn, SQLite3, Plotly
 
 ## *TL;DR*
 * As expected, the higher a country scores on the World Happiness Report, the higher it is likely to score in food security metrics (Overall security, affordability, availability, quality, and resilience of supply)
