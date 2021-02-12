@@ -27,11 +27,12 @@ To begin my analysis I used Seaborn's heatmap function to create a correlation m
 ![Correlation Matrix](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/CorrelationMatrix2019.png)
 
 Relevant column names are described below:
-`Score` = Overall happiness score WHR
-`Social Support` = Amount of social support in a country based on policies and societal factors
-`O_Score` and its variates, such as `Aff_Score` and so on = Scores for food security metrics in a given country from GFSI (Overall, Affordability, Availability, Quality and Safety, and Natural Resources and Resilience)
+* `Score` = Overall happiness score WHR
+* `Social Support` = Amount of social support in a country based on policies and societal factors
+* `O_Score` and its variates, such as `Aff_Score` and so on = Scores for food security metrics in a given country from GFSI (Overall, Affordability, Availability, Quality and Safety, and Natural Resources and Resilience)
 
-Seen within the key sections are two distinct areas, one of high correlation values and one of weaker, yet still significant, values. The former spans from the second `index` (index of WHR 2019) to `Healthy life expectancy`; the latter spans from `Freedom to make life choices` to `Perceptions of corruption` but does not include `Generosity`. These areas show positive correlation inciting further analysis into their relationships.
+Seen within the key sections are two distinct areas, one of high correlation values and one of weaker, yet still significant, values. 
+The former spans from the second `index` (index of WHR 2019) to `Healthy life expectancy`; the latter spans from `Freedom to make life choices` to `Perceptions of corruption` but does not include `Generosity`. These areas show positive correlation inciting further analysis into their relationships.
 
 ## Deep Dive
 This is the deep dive text
