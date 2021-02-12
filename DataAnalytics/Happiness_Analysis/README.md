@@ -7,7 +7,7 @@
 ## *TL;DR*
 * EDA and follow up analysis of World Happiness Report scores and Global Food Security metrics
 * Goal: Identify and visualize relationships between the two reports and verify hypothesis
-* Hypothesis: Countries with a higher World Happiness Report score will have a better score on the food security metrics outlined in this report (overall, affordability, availability, quality and safety, natural resources and resilience)
+* Hypothesis: Countries with a higher score in food security metrics outlined in this report (overall security, affordability, availability, quality and safety, natural resources and resilience) will have a better score on the World Happiness Report
 
 
 ### Findings at a Glance
@@ -41,6 +41,7 @@ To begin my analysis I used Seaborn's heatmap function to create a correlation m
 
 #### Correlation Matrix
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/CorrelationMatrix2019.png)
+###### Fig. 1: Global Food Security Index & World Happiness Report Correlation Matrix
 
 <details>
 <summary>Column Descriptions of Correlation Matrix</summary>
@@ -63,9 +64,10 @@ Other areas of interest could be the highly negative correlation of the first tw
 | ------------- |:-------------:|:-----:|:-----:|
 | STRONG     | 0.75-0.95 | `index` | `Healthy life expectancy` |
 | WEAK      | 0.35-0.5      | `Freedom to make life choices` | `Perceptions of corruption` |
+###### Fig. 2: Significant Areas Within Key Sections
 
 #### World Map of World Happiness Report Scores
-![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/World_HappScore_2019%20(2).png)
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/World_HappScore_2019.png)
  
  ##### Table of top 5 countries by WHR scores
 |Placement    | Country          | Score | 
@@ -79,17 +81,21 @@ Other areas of interest could be the highly negative correlation of the first tw
 #### Important Notes
 * GDP/capita is one of the most consistently, strongly correlated variables so it will be included in almost every analysis
  * Bubble charts will be used for their ease-of-representation of this variable
+* P-values were calculated for all graphs shown below and were found to be well below the α = 0.05 mark, even in the low correlation areas.
 
 ### High Correlation Area
 Within the two defined areas there are certain areas that are more interesting to verify, such as quality and safety of the food supply and the healthy life expectancy of a given country. Below is a bubble chart of just that correlation with GDP/capita as the size of the bubbles. Supporting the hypothesis, there is a clear positive trend between GDP/capita, healthy life expectancy, and quality and safety of the food supply; As one variable increases, the others are likely to do so as well. Another aspect to notice is the decrease in variance the more affluent and higher quality of life a country is. This is due to the obvious fact that the amount of hardships is minimized in developed countries and conversely, in developing countries there are a varyng ranges of hardships that affect countries up to a certain GDP/capita and Quality and Safety score. 
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/QS_HLE_GDP_bubble_2019.png)
+###### Fig. 3
 
-The same trend is repeated through all variations of food security metrics compared to WHR columns in the high correlation group. Shown below is another example of the trend seen through all years with affordability scores compared to reported happiness scores. 
+The same trend is repeated through all variations of food security metrics compared to WHR columns in the high correlation group. 
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/Aff_Score_GDP_bubble_2019.png)
+###### Fig. 4: Affordable Food Supply vs Reported Happiness Scores 2019; GDP/capita - bubble size
 
 ### Low Correlation Area
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/AV_FMLC_GDP_bubble_2019.png)
-The low correlation area in the key sections is marked by correlation values between 0.35 and 0.5. Due to the small sample size of just over 100 countries this information is, at best, useful in simple relational analysis. The perceived trends, observed and defined above, are less prevelant in this graph as the variance is much more profound in this graph than those from the high correlation area. They are not completely missing though, there is evident grouping and trending of GDP/capita similar to that of the high correlation area.
+###### Fig. 5: Food Supply Availability vs. Freedom to Make Life Choices; GDP/capita - bubble size
+The low correlation area in the key sections is marked by correlation values between 0.35 and 0.5. Due to the small sample size of just over 100 countries this information is, at best, useful in simple relational analysis. The perceived trends, observed and defined above, are less prevelant in Figure 5 as the variance is much more profound in this graph than those from the high correlation area. They are not completely missing though, there is evident grouping and trending of GDP/capita similar to that of the high correlation area. Which hints towards the significance of increasing GDP/capita for overall wellbeing increases and higher rates of happiness.
 
 ## Conclusion
-All in all, the analysis I performed 
+All in all, the EDA I performed along with further analysis confirmed my hypothesis that countries with higher scores in food security metrics more often than not had higher scores in the World Happiness Report. Final verification of these findings from P-value analysis revealed very low P-values, on the order of p = 8.6x10^-30 (P-value for Figure 3). The takeaway from my analysis has been that the most important factor in deciding whether a country is high ranking in the WHR is the GDP/capita of that country, a finding that is the logical outcome from many other societal wellbeing and reported happiness studies. Without fail, countries with the highest GDP/capita were always in the highest among overall food security, affordability, availability, quality and safety, and resilience of the supply along with also ranking higher in reported happiness in the WHR. Another marker, which is closely tied to GDP/capita, is the countries development with respect to its society; whether it's a developing or developed nation. In the realm of simplified analyses such as the ones proposed in this report, these markers together are among the best indicators for overall wellbeing and happiness levels present in a country. 
