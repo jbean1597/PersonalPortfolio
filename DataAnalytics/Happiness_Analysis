@@ -1,5 +1,5 @@
 # Countrywide Happiness as a proxy of Food Security and Quality
-*TL;DR*
+## *TL;DR*
 * As expected, the higher a country scores on the World Happiness Report, the higher it is likely to score in food security metrics (Overall security, affordability, availability, quality, and resilience of supply)
   * Correlation values of food security metrics and certain World Happiness Report variables (Score, GDP/capita, Social Support, and Healthy Life Expectancy) between 0.75-*0.95*, indicating a very strong relationship
   * Correlation values for other WHR variables (Freedom to Make Life Choices and Perceptions of Corruption was less impactful, however still signficant ranging from 0.35-0.5
