@@ -57,7 +57,7 @@ To begin my analysis I used Seaborn's heatmap function to create a correlation m
 Seen within the key sections are two distinct areas, one of high correlation values and one of weaker, yet still significant, values. `Generosity` is not included as it has no significant correlation. 
 
 |Correlation      | Value Range          | Starting Column  | Ending Column |
-| ------------- |:-------------:|:-----:|-----:|
+| ------------- |:-------------:|:-----:|:-----:|
 | STRONG     | 0.75-0.95 | `index` | `Healthy life expectancy` |
 | WEAK      | 0.35-0.5      | `Freedom to make life choices` | `Perceptions of corruption` |
 
