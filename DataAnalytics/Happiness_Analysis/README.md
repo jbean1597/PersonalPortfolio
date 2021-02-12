@@ -40,7 +40,7 @@ Data was gathered as stated above in csv format and uploaded to a SQLite3 databa
 To begin my analysis I used Seaborn's heatmap function to create a correlation matrix to denote key trends and relationships. Shown below is the resulting graph. Key sections of the graph are those that show true correlation between the GFSI and WHR, such as the values contained within the red boxes. Values outside of these boxes are not significant since they show recursive correlation between already linked variables contained within each table respectively.
 
 #### Correlation Matrix
-![Correlation Matrix](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/CorrelationMatrix2019.png)
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/CorrelationMatrix2019.png)
 
 <details>
 <summary>Column Descriptions of Correlation Matrix</summary>
@@ -64,7 +64,17 @@ Other areas of interest could be the highly negative correlation of the first tw
 | STRONG     | 0.75-0.95 | `index` | `Healthy life expectancy` |
 | WEAK      | 0.35-0.5      | `Freedom to make life choices` | `Perceptions of corruption` |
 
-
+#### World Map of World Happiness Report Scores
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/World_HappScore_2019.png)
+ 
+ ##### Table of top 5 countries by WHR scores
+|Placement    | Country          | Score | 
+| ------------- |:-------------:|:-----:|
+| 1    | Finlane | 7.769 |
+| 2    | Denmark     | 7.600 |
+| 3    | Norway      | 7.554 |
+| 4    | Iceland      | 7.494 |
+| 5    | Netherlands      | 7.488 |
 ## Final Analyses
 #### Important Notes
 * GDP/capita is one of the most consistently, strongly correlated variables so it will be included in almost every analysis
