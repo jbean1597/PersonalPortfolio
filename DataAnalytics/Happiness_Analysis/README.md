@@ -1,6 +1,6 @@
 # Countrywide Happiness as a Proxy of Food Security and Quality
 <br>**Concepts Applied:** Data Gathering, Data Cleaning/Scrubbing, Accessing Database Tables, Data Analysis, Data Visualization</br>
-<br>**Language:** Python and SQL</br>
+<br>**Languages:** Python and SQL</br>
 <br>**Libraries Used:** Numpy, Pandas, Seaborn, SQLite3, Plotly</br>
 
 
