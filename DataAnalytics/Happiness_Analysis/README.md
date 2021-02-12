@@ -20,6 +20,14 @@ This projects is an attempt to visualize the relationships between World Happine
 * Data was gathered from the websites linked above before being processed and cleaned with Pandas functions by me
 * **From here on, the names of the reports will be shortened to WHR and GFSI respectively for simplicity
 
+### Data Gathering and Cleaning
+Data was gathered as stated above in csv format and uploaded to a SQLite3 database as separate tables (WHR_2019, GFSI_2019, etc.) in a Jupyter Notebook. 
+#### Notes
+* Some csv files had to be encoded with `'latin-1'` to be uploaded
+* Used SQL commands to query tables for verification of uploads
+* Created a dataframe from a join between GFSI and WHR on GFSI's `Overall` column to keep similar countries between both tables (kept 108 distinct values, ie. countries)
+
+
 ## Exploratory Data Analysis
 To begin my analysis I used Seaborn's heatmap function to create a correlation matrix to denote key trends and relationships. Shown below is the resulting graph, the key sections in it are marked. Key sections here refers to the sections of the graph that show true correlation between the GFSI and WHR, hence the areas outside of the boxes are not significant since they show recursive correlation between already linked variables contained within each table respectively.
 
