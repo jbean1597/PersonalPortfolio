@@ -12,12 +12,16 @@ Libraries Used: Numpy, Pandas, Seaborn, SQLite3, Plotly
   * The inverse is true for countries that ranked low in the World Happiness Report; countries in sub-Saharan Africa scored low in metrics due to socioeconomic, historical, and civil hardships that are present after centuries of misuse and intentional wrongdoing. These hardships avert attention away from societal improvement and individual wellbeing to other, more vital causes such as infrastructure, subsidies for other sectors (ie. Industrial/Labor), and in some less fortunate cases, corruption; These decisions/actions contribute to lowering food security in the country substantially.
 
 ## Introduction 
-This projects is an attempt to visualize the relationships between World Happiness Report scores and societal wellness metrics in the context of food security, specifically food afforability, availability, quality, and the resilience of the country's food supply. Data analysis and visualization was conducted in Jupyter Notebooks with Python 3 and its various libraries listed above.
+This projects is an attempt to visualize the relationships between World Happiness Report scores and societal wellness metrics in the context of food security, specifically food afforability, availability, quality, and the resilience of the country's food supply, sourced from the Global Food Security Index. Data analysis and visualization was conducted in Jupyter Notebooks with Python 3 and its various libraries listed above.
 
 * Data sourced from World Happiness Project and Global Food Security Index reports (2015-2019)
 * Global Food Security Index tracks afforablilty, availability, quality and safety, and resilience of the food supply in a given country (https://foodsecurityindex.eiu.com/)
 * World Happiness Project reports a generalized score after analyzing multiple key metrics such as societal freedom, GDP per capita, and more (https://worldhappiness.report/ed/2020/)
 * Data was gathered from the websites linked above before being processed and cleaned with Pandas functions by me
+* **From here on, the names of the reports will be shortened to WHR and GFSI respectively for simplicity
 
 ## Exploratory Data Analysis
-To begin my analysis I used Seaborn's heatmap function to create a correlation matrix to denote key trends and relationships.
+To begin my analysis I used Seaborn's heatmap function to create a correlation matrix to denote key trends and relationships. Shown below is the resulting graph, the key sections in it are the quadrants I and III. Key sections here refers to the sections of the graph that show true correlation between the GFSI and WHR, hence not quadrants II and IV since they show recursive correlation between already linked variables contained within each table respectively.
+
+!(.../IMAGES/Happiness_Analysis/'Correlation Matrix GFSI WHR 2019'.png "Correlation Matrix GFSI & WHR 2019")
+
