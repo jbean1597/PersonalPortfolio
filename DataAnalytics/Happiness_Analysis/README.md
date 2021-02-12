@@ -31,10 +31,10 @@ Data was gathered as stated above in csv format and uploaded to a SQLite3 databa
 ## Exploratory Data Analysis
 To begin my analysis I used Seaborn's heatmap function to create a correlation matrix to denote key trends and relationships. Shown below is the resulting graph, the key sections in it are marked. Key sections here refers to the sections of the graph that show true correlation between the GFSI and WHR, hence the areas outside of the boxes are not significant since they show recursive correlation between already linked variables contained within each table respectively.
 
-### Correlation Matrix
+#### Correlation Matrix
 ![Correlation Matrix](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/CorrelationMatrix2019.png)
 
-<details>
+##### <details>
 <summary>Column Descriptions of Correlation Matrix</summary>
 <ul><li>index = Index marker of GFSI and WHR reports, respectively </li>
 <li>Placement = GFSI Placement; 1 is best</li>
