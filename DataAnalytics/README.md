@@ -11,6 +11,10 @@ I was introduced to coding my last year in university and since then have cultiv
 * Global Food Security Index tracks afforablilty, availability, and quality of food in the country (https://foodsecurityindex.eiu.com/)
 * World Happiness Project reports a generalized score after analyzing multiple key metrics such as societal freedom, GDP per capita, and more (https://worldhappiness.report/ed/2020/)
 
+#### World Map of Reported Happines Report Scores 2019 (Higher is Better)
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/World_HappScore_2019.png)
+
+
 
 | Contact Me    | Links         |
 | ------------- |:-------------:|
