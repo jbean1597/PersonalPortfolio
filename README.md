@@ -11,7 +11,7 @@ I'm currently updating and adding more to this portfolio as I take on new projec
 ## Index
 This repository contains all of the projects that I have done while teaching myself coding. I have separated them into two types: Data Analytics and Scripts.
   1. [Data Analytics](https://github.com/jbean1597/PersonalPortfolio/tree/main/DataAnalytics)
-  2. [Scripts](../jbean1597/PersonalPortfolio/Scripts)
+  2. [Scripts](https://github.com/jbean1597/PersonalPortfolio/tree/main/Scripts)
 
 
 
