@@ -63,5 +63,10 @@ Seen within the key sections are two distinct areas, one of high correlation val
 
 
 ## Final Analyses
+#### Important Notes
+* GDP/capita is one of the most consistently, strongly correlated variables so it will be included in almost every analysis
+ * Bubble analyses will be used for their ease-of-representation of this variable
+
+
 Within the two defined areas there are certain areas that are more interesting to verify, such as quality and safety of the food supply and the healthy life expectancy of a given country. Below is a bubble chart of just that correlation with GDP/capita as the size of the bubbles. Supporting the hypothesis, there is a clear positive trend between GDP/capita, healthy life expectancy, and quality and safety of the food supply; As one variable increases, the others are likely to do so as well. Another aspect to notice is the decrease in variance the more affluent and higher quality of life a country is. This is due to the obvious fact that the amount of hardships is minimized in developed countries and conversely, in developing countries there are a varyng ranges of hardships that affect countries up to a certain GDP/capita and Quality and Safety score. 
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/QS_HLE_GDP_bubble_2019.png)
