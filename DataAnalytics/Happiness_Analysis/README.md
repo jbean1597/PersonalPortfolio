@@ -26,12 +26,12 @@ This projects is an attempt to visualize the relationships between World Happine
 * Global Food Security Index tracks afforablilty, availability, quality and safety, and resilience of the food supply in a given country (https://foodsecurityindex.eiu.com/)
 * World Happiness Project reports a generalized score after analyzing multiple key metrics such as societal freedom, GDP per capita, and more (https://worldhappiness.report/ed/2020/)
 * Data was gathered from the websites linked above before being processed and cleaned with Pandas functions by me
-* **From here on, the names of the reports will be shortened to WHR and GFSI respectively for simplicity
+* **From here on, the names of the reports will be shortened to WHR and GFSI respectively for simplicity**
 
 #### Data Gathering and Cleaning
 Data was gathered as stated above in csv format and uploaded to a SQLite3 database as separate tables (WHR_2019, GFSI_2019, etc.) in a Jupyter Notebook. 
 ##### Notes
-* Some csv files had to be encoded with `encoding='latin-1'` to be uploaded
+* Some CSV files had to be encoded with `encoding='latin-1'` to be uploaded
 * Used SQL commands to query tables for verification of uploads
 * Created dataframe from a join between GFSI and WHR on GFSI's `Overall` column to keep similar countries between both tables (kept 108 distinct values, ie. countries)
 
