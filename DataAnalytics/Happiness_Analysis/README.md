@@ -65,7 +65,7 @@ Other areas of interest could be the highly negative correlation of the first tw
 | WEAK      | 0.35-0.5      | `Freedom to make life choices` | `Perceptions of corruption` |
 
 #### World Map of World Happiness Report Scores
-![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/World_HappScore_2019.png)
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/World_HappScore_2019%20(2).png)
  
  ##### Table of top 5 countries by WHR scores
 |Placement    | Country          | Score | 
