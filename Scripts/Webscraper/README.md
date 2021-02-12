@@ -8,3 +8,10 @@
 
 ### Findings at a Glance
 * This is the findings at a glance area
+
+## Introduction
+This is the introduction area for the webscraper
+
+## Code
+
+## Final Performance
