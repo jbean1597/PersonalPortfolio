@@ -1,7 +1,8 @@
 # Countrywide Happiness as a Proxy of Food Security and Quality
-**Concepts Applied:** Data Gathering, Data Cleaning/Scrubbing, Data Analysis, Data Visualization
-**Language:** Python
-**Libraries Used:** Numpy, Pandas, Seaborn, SQLite3, Plotly
+<br>**Concepts Applied:** Data Gathering, Data Cleaning/Scrubbing, Accessing Database Tables, Data Analysis, Data Visualization</br>
+<br>**Language:** Python and SQL</br>
+<br>**Libraries Used:** Numpy, Pandas, Seaborn, SQLite3, Plotly</br>
+
 
 ## *TL;DR*
 * As expected, the higher a country scores on the World Happiness Report, the higher it is likely to score in food security metrics (Overall security, affordability, availability, quality, and resilience of supply)
@@ -25,11 +26,11 @@ Data was gathered as stated above in csv format and uploaded to a SQLite3 databa
 ##### Notes
 * Some csv files had to be encoded with `'latin-1'` to be uploaded
 * Used SQL commands to query tables for verification of uploads
-* Created a dataframe from a join between GFSI and WHR on GFSI's `Overall` column to keep similar countries between both tables (kept 108 distinct values, ie. countries)
+* Created dataframe from a join between GFSI and WHR on GFSI's `Overall` column to keep similar countries between both tables (kept 108 distinct values, ie. countries)
 
 
 ## Exploratory Data Analysis
-To begin my analysis I used Seaborn's heatmap function to create a correlation matrix to denote key trends and relationships. Shown below is the resulting graph, the key sections in it are marked. Key sections here refers to the sections of the graph that show true correlation between the GFSI and WHR, hence the areas outside of the boxes are not significant since they show recursive correlation between already linked variables contained within each table respectively.
+To begin my analysis I used Seaborn's heatmap function to create a correlation matrix to denote key trends and relationships. Shown below is the resulting graph. Key sections of the graph are those that show true correlation between the GFSI and WHR, such as the values contained within the red boxes. Values outside of these boxes are not significant since they show recursive correlation between already linked variables contained within each table respectively.
 
 #### Correlation Matrix
 ![Correlation Matrix](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/CorrelationMatrix2019.png)
