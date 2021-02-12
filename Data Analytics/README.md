@@ -4,7 +4,6 @@ I was introduced to coding my last year in university and since then have cultiv
 
 ## Index
 1. Countrywide Happiness as a Proxy of Food Security
-  ** Graphs
 2. Next project
 
 
