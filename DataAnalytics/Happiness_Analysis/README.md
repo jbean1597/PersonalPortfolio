@@ -21,6 +21,6 @@ This projects is an attempt to visualize the relationships between World Happine
 * **From here on, the names of the reports will be shortened to WHR and GFSI respectively for simplicity
 
 ## Exploratory Data Analysis
-To begin my analysis I used Seaborn's heatmap function to create a correlation matrix to denote key trends and relationships. Shown below is the resulting graph, the key sections in it are the quadrants I and III. Key sections here refers to the sections of the graph that show true correlation between the GFSI and WHR, hence quadrants II and IV are not significant since they show recursive correlation between already linked variables contained within each table respectively.
+To begin my analysis I used Seaborn's heatmap function to create a correlation matrix to denote key trends and relationships. Shown below is the resulting graph, the key sections in it are marked. Key sections here refers to the sections of the graph that show true correlation between the GFSI and WHR, hence the areas outside of the boxes are not significant since they show recursive correlation between already linked variables contained within each table respectively.
 
 ![Correlation Matrix](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/CorrelationMatrix2019.png)
