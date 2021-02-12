@@ -17,3 +17,10 @@ This repository contains all of the projects that I have done while teaching mys
 * Data sourced from World Happiness Project and Global Food Security Index reports (2015-2019)
 * Global Food Security Index tracks afforablilty, availability, and quality of food in the country (https://foodsecurityindex.eiu.com/)
 * World Happiness Project reports a generalized score after analyzing multiple key metrics such as societal freedom, GDP per capita, and more (https://worldhappiness.report/ed/2020/)
+
+
+
+| Contact Me    | Links         |
+| ------------- |:-------------:|
+| email         | jakebean.geo@gmail.com |
+| LinkedIn      | www.linkedin.com/in/jake-beangeo      |
