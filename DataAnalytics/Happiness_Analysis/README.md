@@ -34,7 +34,7 @@ To begin my analysis I used Seaborn's heatmap function to create a correlation m
 #### Correlation Matrix
 ![Correlation Matrix](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/CorrelationMatrix2019.png)
 
-##### <details>
+<details>
 <summary>Column Descriptions of Correlation Matrix</summary>
 <ul><li>index = Index marker of GFSI and WHR reports, respectively </li>
 <li>Placement = GFSI Placement; 1 is best</li>
