@@ -31,7 +31,7 @@ This projects is an attempt to visualize the relationships between World Happine
 #### Data Gathering and Cleaning
 Data was gathered as stated above in csv format and uploaded to a SQLite3 database as separate tables (WHR_2019, GFSI_2019, etc.) in a Jupyter Notebook. 
 ##### Notes
-* Some csv files had to be encoded with `'latin-1'` to be uploaded
+* Some csv files had to be encoded with `encoding='latin-1'` to be uploaded
 * Used SQL commands to query tables for verification of uploads
 * Created dataframe from a join between GFSI and WHR on GFSI's `Overall` column to keep similar countries between both tables (kept 108 distinct values, ie. countries)
 
@@ -50,11 +50,11 @@ To begin my analysis I used Seaborn's heatmap function to create a correlation m
 <li>Overall Rank and Score = WHR Placement; 1 is best</li>
 <li>Social Support = From WHR; Amount of social support in a country based on policies and societal factors</li>
 <li>Generosity and Perceptions of Corruption = Perceived rates of generosity or perceptions of corruption collected from polling citizens of a given country</li>
-<li>The rest are self-explanatory</li></ul>
+<li>The rest not named here are self-explanatory</li></ul>
 </details>
 
 
-Seen within the key sections are two distinct areas, one of high correlation values and one of weaker, yet still significant, values. `Generosity` is not included as it has no significant correlation. 
+Seen within the key sections are two distinct areas, one of high correlation values and one of weaker, yet still significant, values. `Generosity` is not included as it has no significant correlation. After examining all other correlation matrices (2015-2018), the pattern was found in all of them in high confidence with almost identical bounds and values.
 
 |Correlation      | Value Range          | Starting Column  | Ending Column |
 | ------------- |:-------------:|:-----:|:-----:|
