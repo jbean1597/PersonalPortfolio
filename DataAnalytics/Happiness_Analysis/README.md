@@ -54,8 +54,13 @@ To begin my analysis I used Seaborn's heatmap function to create a correlation m
 </details>
 
 
-Seen within the key sections are two distinct areas, one of high correlation values and one of weaker, yet still significant, values. 
-The former spans from the second `index` (index of WHR 2019) to `Healthy life expectancy`; the latter spans from `Freedom to make life choices` to `Perceptions of corruption` but does not include `Generosity`. These areas show positive correlation inciting further analysis into their relationships.
+Seen within the key sections are two distinct areas, one of high correlation values and one of weaker, yet still significant, values. `Generosity` is not included as it has no significant correlation. 
+
+|Correlation      | Value Range          | Starting Column  | Ending Column |
+| ------------- |:-------------:|:-----:|-----:|
+| STRONG     | 0.75-0.95 | `index` | `Healthy life expectancy` |
+| WEAK      | 0.35-0.5      | `Freedom to make life choices` | `Perceptions of corruption` |
+
 
 ## Deep Dive
 This is the deep dive text
