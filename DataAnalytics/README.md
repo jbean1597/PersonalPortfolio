@@ -8,8 +8,9 @@ I was introduced to coding my last year in university and since then have cultiv
 
 ## Project 1: Countrywide Happiness as a proxy of Food Security and Quality
 * Data sourced from World Happiness Project and Global Food Security Index reports (2015-2019)
-* Global Food Security Index (GFSI) tracks afforablilty, availability, and quality of food in the country (https://foodsecurityindex.eiu.com/)
-* World Happiness Report (WHR) reports a generalized score after analyzing multiple key metrics such as societal freedom, GDP per capita, and more (https://worldhappiness.report/ed/2020/)
+* Global Food Security Index tracks afforablilty, availability, quality and safety, and resilience of the food supply in a given country (https://foodsecurityindex.eiu.com/)
+* World Happiness Project reports a generalized score after analyzing multiple key metrics such as societal freedom, GDP per capita, and more (https://worldhappiness.report/ed/2020/)
+* Data was gathered from the websites linked above before being processed and cleaned with Pandas functions by me
 * **Hypothesis:** Countries with higher scores in food security metrics will score higher in World Happiness Report score.
 
 #### World Map of Reported Happines Report Scores 2019 (Higher is Better)
