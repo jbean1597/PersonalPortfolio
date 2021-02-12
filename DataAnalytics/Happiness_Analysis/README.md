@@ -78,7 +78,7 @@ Other areas of interest could be the highly negative correlation of the first tw
 ## Final Analyses
 #### Important Notes
 * GDP/capita is one of the most consistently, strongly correlated variables so it will be included in almost every analysis
- * Bubble analyses will be used for their ease-of-representation of this variable
+ * Bubble charts will be used for their ease-of-representation of this variable
 
 ### High Correlation Area
 Within the two defined areas there are certain areas that are more interesting to verify, such as quality and safety of the food supply and the healthy life expectancy of a given country. Below is a bubble chart of just that correlation with GDP/capita as the size of the bubbles. Supporting the hypothesis, there is a clear positive trend between GDP/capita, healthy life expectancy, and quality and safety of the food supply; As one variable increases, the others are likely to do so as well. Another aspect to notice is the decrease in variance the more affluent and higher quality of life a country is. This is due to the obvious fact that the amount of hardships is minimized in developed countries and conversely, in developing countries there are a varyng ranges of hardships that affect countries up to a certain GDP/capita and Quality and Safety score. 
@@ -88,4 +88,8 @@ The same trend is repeated through all variations of food security metrics compa
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/Aff_Score_GDP_bubble_2019.png)
 
 ### Low Correlation Area
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Happiness_Analysis/images/AV_FMLC_GDP_bubble_2019.png)
+The low correlation area in the key sections is marked by correlation values between 0.35 and 0.5. Due to the small sample size of just over 100 countries this information is, at best, useful in simple relational analysis. The perceived trends, observed and defined above, are less prevelant in this graph as the variance is much more profound in this graph than those from the high correlation area. They are not completely missing though, there is evident grouping and trending of GDP/capita similar to that of the high correlation area.
 
+## Conclusion
+All in all, the analysis I performed 
