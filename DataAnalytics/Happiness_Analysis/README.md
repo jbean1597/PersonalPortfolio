@@ -28,8 +28,11 @@ To begin my analysis I used Seaborn's heatmap function to create a correlation m
 
 <details>
 <summary>Column Descriptions of Correlation Matrix</summary>
-<ul><li>This dropdown contains</li>
-<li>a list!</li></ul>
+<ul><li>`index` = Index marker of GFSI and WHR reports, respectively</li>
+<li>`Placement` = GFSI Placement; 1 is best</li>
+<li>`O_Score` and its variates, such as `Aff_Score` and so on = Scores for food security metrics in a given country from GFSI (Overall, Affordability, Availability, Quality and Safety, and Natural Resources and Resilience)</li>
+<li>`Overall Rank` and `Score` = WHR Placement; 1 is best</li>
+<li>`Social Support` = From WHR; Amount of social support in a country based on policies and societal factors</li></ul>
 </details>
 
 Relevant column names are described below:
