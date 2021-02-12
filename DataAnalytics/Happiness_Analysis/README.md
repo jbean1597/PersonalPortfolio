@@ -28,17 +28,15 @@ To begin my analysis I used Seaborn's heatmap function to create a correlation m
 
 <details>
 <summary>Column Descriptions of Correlation Matrix</summary>
-<ul><li><pre>$ index</pre> = Index marker of GFSI and WHR reports, respectively </li>
-<li>`Placement` = GFSI Placement; 1 is best</li>
-<li>`O_Score` and its variates, such as `Aff_Score` and so on = Scores for food security metrics in a given country from GFSI (Overall, Affordability, Availability, Quality and Safety, and Natural Resources and Resilience)</li>
-<li>`Overall Rank` and `Score` = WHR Placement; 1 is best</li>
-<li>`Social Support` = From WHR; Amount of social support in a country based on policies and societal factors</li></ul>
+<ul><li>index = Index marker of GFSI and WHR reports, respectively </li>
+<li>Placement = GFSI Placement; 1 is best</li>
+<li>O_Score and its variates, such as Aff_Score and so on = Scores for food security metrics in a given country from GFSI (Overall, Affordability, Availability, Quality and Safety, and Natural Resources and Resilience)</li>
+<li>Overall Rank and Score = WHR Placement; 1 is best</li>
+<li>Social Support = From WHR; Amount of social support in a country based on policies and societal factors</li>
+<li>Generosity and Perceptions of Corruption = Perceived rates of generosity or perceptions of corruption collected from polling citizens of a given country</li>
+<li>The rest are self-explanatory</li></ul>
 </details>
 
-Relevant column names are described below:
-* `Score` = Overall happiness score WHR
-* `Social Support` = Amount of social support in a country based on policies and societal factors
-* `O_Score` and its variates, such as `Aff_Score` and so on = Scores for food security metrics in a given country from GFSI (Overall, Affordability, Availability, Quality and Safety, and Natural Resources and Resilience)
 
 Seen within the key sections are two distinct areas, one of high correlation values and one of weaker, yet still significant, values. 
 The former spans from the second `index` (index of WHR 2019) to `Healthy life expectancy`; the latter spans from `Freedom to make life choices` to `Perceptions of corruption` but does not include `Generosity`. These areas show positive correlation inciting further analysis into their relationships.
