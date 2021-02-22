@@ -3,7 +3,7 @@
 This folder contains all of the scripts I have created including a webscraper, etc, and etc. Feel free to use the code implemented in any of these projects to test it out and see the performance for yourself.
 
 ### Index
-1. Automatic Trading Bot(https://github.com/jbean1597/PersonalPortfolio/blob/main/Scripts/TradingBot/TradingBot.ipynb)
+1. [Automatic Trading Bot](https://github.com/jbean1597/PersonalPortfolio/blob/main/Scripts/TradingBot/TradingBot.ipynb)
 2. Webscraper
 
 ## Project 1: Trading Bot
