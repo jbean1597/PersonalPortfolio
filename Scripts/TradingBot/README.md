@@ -17,7 +17,7 @@ This trading bot was born of my own curiosity with the stock market and implemen
 ## Code
 This code makes simple decisions for buy/sell based on the delta of the stock symbol specified in `self.symbol` and uses 3 verifications for those decisions; if delta is greater that 0 then the stock is bought with the amount of stocks desired(`target`), if delta is less than 0 then it is sold, if delta is 0 then it just prints out a message saying the order is being processed. The orders this program submits are limit orders with a limit price of $1.00.
 
-[Jupyter Notebook of Code](../blob/master/LICENSE)
+[Jupyter Notebook of Code](https://github.com/jbean1597/PersonalPortfolio/blob/main/Scripts/TradingBot/TradingBot.ipynb)
 
 ## Final Performance
 * This section will also be filled out when final results are collected.
