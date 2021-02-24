@@ -5,17 +5,17 @@
 
 
 ## *TL;DR*
-* Data used was collected completely manually by myself for the first year of the project, then an program-assisted method was used for the last year
+* Data used was collected completely manually by myself for the first year of the project, then a program-assisted method was used for the last year
 * ~200 samples were collected (a roughly 20/80 mixture of whole core and rotary sidewall core samples respectively); Variables collected included depth, length of grains, sorting quality, and multiple calculated variables from mineralogical data within the samples themselves
 * Project's focus was to establish a hypothesized connection between illite rims surrounding grains and an extraordinarily high porosity value seen in units in the Illinois Basin
 
 
 ### Findings at a Glance
-Before the EDA was conducted it was thought that authigenic cements and depth were limiting factors in how porous a rock unit could be and it was generally found to be true. However, my analysis showed that this unit is anomolous since depth and porosity share a somewhat strong relationship which is further backed up by previous gamma ray log tests. Another interesting trend found was that IGV and total porosity were not as closely linked as we thought, producing a pearson coefficient value of ~0.25. This was explained later through SEM analysis of microporosity being vastly more abundant in this unit than in others, thanks largely due to the fibrosity of illite and other clay minerals present. This also explains why there is a large difference in the coefficients for total illite and total cements are so different; Other cements had no microporosity unlike illite.
+Before the EDA was conducted it was thought that authigenic cements and depth were limiting factors in how porous a rock unit could be and it was generally found to be true. However, my analysis showed that this unit is anomalous since depth and porosity share a somewhat strong relationship which is further backed up by previous gamma ray log tests. Another interesting trend found was that IGV and total porosity were not as closely linked as we thought, producing a Pearson coefficient value of ~0.25. This was explained later through SEM analysis of micro porosity being vastly more abundant in this unit than in others, thanks largely due to the fibrosity of illite and other clay minerals present. This also explains why there is a large difference in the coefficients for total illite and total cements are so different; Other cements had no micro porosity unlike illite.
 
 
 #### Other Notable Findings
-* The EDA defined multiple known relationships present in the data, such as grain size negatively affecting intergranular volume(IGV) and Preliminary Primary Porosity being extremely dependent on sorting
+* The EDA defined multiple known relationships present in the data, such as grain size negatively affecting intergranular volume (IGV) and Preliminary Primary Porosity being extremely dependent on sorting
 * Contrary findings were present as well and were shown in the EDA to be of value for the project
 * Graphs and visualizations were then produced with the data and presented to the project lead
 
@@ -30,7 +30,7 @@ Data was gathered as stated above in Excel and then transferred into a CSV and u
 * Very few data points had null values; dataset was relatively clean, though contained too many columns at first
 
 ## Exploratory Data Analysis
-Since this project was examining the relationship between variables present in this rock unit I decided a correlation matrix would be the best way to visualize a correlation between all the variables and identify important trends. Below is the correlation matrix produced from all the rotary sidewall cores(RSWC) and whole core(WC) samples in the wells. The green boxes correspond to relationships that I previously knew existed and were looking for while the blue boxes correspond with relationships we did not expect.
+Since this project was examining the relationship between variables present in this rock unit, I decided a correlation matrix would be the best way to visualize a correlation between all the variables and identify important trends. Below is the correlation matrix produced from all the rotary sidewall cores (RSWC) and whole core (WC) samples in the wells. The green boxes correspond to relationships that I previously knew existed and were looking for while the blue boxes correspond with relationships we did not expect.
 
 #### Correlation Matrices
 <br>![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/ALL%20TRM%20Correlation%20Matrix%20Seaborn.PNG)
@@ -60,7 +60,7 @@ This graph further exemplified the trends found in figure 4 but with a focus on 
 <br>
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/IvP.PNG)
 ##### Fig. 6: IGV vs. Porosity
-At this point the story began to come together with the visualization of intergranular volume and porosity. It shows a limiting factor in the porosity of the sample that we had not seen before, a sharp drop-off in porosity when IGV passes 40%. This is odd since IGV inherently includes porosity in its calculation of the *entire* volume of the rock minus the grain volume. This was explored later and was due to the samples with more than 40% IGV were within the Argenta and Eau Claire, two units with little to no porosity and cements filling every pore. This graph shows the point for the maximum amount of porosity with respect to IGV is found between 25-40% iGV and can climb as high as 30% porosity, an extremely high value that you would never expect to find more than 6000 feet below the surface.
+At this point the story began to come together with the visualization of intergranular volume and porosity. It shows a limiting factor in the porosity of the sample that we had not seen before, a sharp drop-off in porosity when IGV passes 40%. This is odd since IGV inherently includes porosity in its calculation of the *entire* volume of the rock minus the grain volume. This was explored later and was due to the samples with more than 40% IGV were within the Argenta and Eau Claire, two units with little to no porosity and cements filling every pore. This graph shows the point for the maximum amount of porosity with respect to IGV is found between 25-40% IGV and can climb as high as 30% porosity, an extremely high value that you would never expect to find more than 6000 feet below the surface.
 </br>
 <br>
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/IvD.png)
@@ -70,12 +70,11 @@ This graph again shows the lack of distinction in illite abundances between the 
 <br>
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/PvD.PNG)
 ##### Fig. 8: Porosity vs. Depth
-The inverse relationship between porosity and depth was seen in this graph along with a clear distinction betweeen the rock units in an easy to understand way. The porosity increases as you go deeper, contrary to what is normal.
+The inverse relationship between porosity and depth was seen in this graph along with a clear distinction between the rock units in an easy to understand way. The porosity increases as you go deeper, contrary to what is normal.
 </br>
 
 ## Final Results
-The above report was created along with documentation including microscope photos of thin section samples, the graphs shown above and 17 more, and all the Python code along with the heatmap and correlation matrix images produced. After it was reviewed and refined, it was presented to the project lead as an extra quarterly report alongside the other one I was assigned. This lead to SEM analysis on multiple thin sections seen in the graphs and report for both microscopic analysis and electron diffraction spectroscopy(EDS). This confirmed the developing hypothesis that the illite within the units had significant microporosity due to a difference in its crystal habit, coincidentally this variation was seen much more prominently in the lower section with the next more prevalent one being the middle. 
+The above report was created along with documentation including microscope photos of thin section samples, the graphs shown above and 17 more, and all the Python code along with the heatmap and correlation matrix images produced. After it was reviewed and refined, it was presented to the project lead as an extra quarterly report alongside the other one I was assigned. This led to SEM analysis on multiple thin sections seen in the graphs and report for both microscopic analysis and electron diffraction spectroscopy (EDS). This confirmed the developing hypothesis that the illite within the units had significant micro porosity due to a difference in its crystal habit, coincidentally this variation was seen much more prominently in the lower section with the next more prevalent one being the middle. 
 
 ## Future of Project
-After this analysis, the project focused on the relationship of diagenesis in the lower and middle sections since there was abundant evidence seen in the microscope images. This diagenesis was hypothesized to be the event that caused the microporosity of the illite to be so defined; either through cemenet dissolution and transport or production of the specific variaton of illite present at that depth range. The project is now exploring that relationship and I have since left the project so this concludes my involvement in the project
-
+After this analysis, the project focused on the relationship of diagenesis in the lower and middle sections since there was abundant evidence seen in the microscope images. This diagenesis was hypothesized to be the event that caused the micro porosity of the illite to be so defined; either through cement dissolution and transport or production of the specific variation of illite present at that depth range. The project is now exploring that relationship and I have since left the project so this concludes my involvement in the project
