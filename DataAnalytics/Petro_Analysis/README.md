@@ -73,4 +73,9 @@ This graph again shows the lack of distinction in illite abundances between the 
 The inverse relationship between porosity and depth was seen in this graph along with a clear distinction betweeen the rock units in an easy to understand way. The porosity increases as you go deeper, contrary to what is normal.
 </br>
 
+## Final Results
+The above report was created along with documentation including microscope photos of thin section samples, the graphs shown above and 17 more, and all the Python code along with the heatmap and correlation matrix images produced. After it was reviewed and refined, it was presented to the project lead as an extra quarterly report alongside the other one I was assigned. This lead to SEM analysis on multiple thin sections seen in the graphs and report for both microscopic analysis and electron diffraction spectroscopy(EDS). This confirmed the developing hypothesis that the illite within the units had significant microporosity due to a difference in its crystal habit, coincidentally this variation was seen much more prominently in the lower section with the next more prevalent one being the middle. 
+
+## Future of Project
+After this analysis, the project focused on the relationship of diagenesis in the lower and middle sections since there was abundant evidence seen in the microscope images. This diagenesis was hypothesized to be the event that caused the microporosity of the illite to be so defined; either through cemenet dissolution and transport or production of the specific variaton of illite present at that depth range. The project is now exploring that relationship and I have since left the project so this concludes my involvement in the project
 
