@@ -32,9 +32,10 @@ Data was gathered as stated above in Excel and then transferred into a CSV and u
 ## Exploratory Data Analysis
 Since this project was examining the relationship between variables present in this rock unit I decided a correlation matrix would be the best way to visualize a correlation between all the variables and identify important trends. Below is the correlation matrix produced from all the rotary sidewall cores(RSWC) and whole core(WC) samples in the wells. The green boxes correspond to relationships that I previously knew existed and were looking for while the blue boxes correspond with relationships we did not expect.
 
-#### Correlation Matrix
+#### Correlation Matrices
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/ALL%20TRM%20Correlation%20Matrix%20Seaborn.PNG)
 ##### Fig. 1: Correlation Matrix of all samples from the wells
+
 
 
 
