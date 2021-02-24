@@ -67,6 +67,12 @@ At this point the story began to come together with the visualization of intergr
 ##### Fig. 7: Total Illite vs. Depth
 This graph again shows the lack of distinction in illite abundances between the units. There is little to no variation with only a few outliers.
 </br>
+<br>
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/PvD.PNG)
+##### Fig. 8: Porosity vs. Depth
+The inverse relationship between porosity and depth was seen in this graph along with a clear distinction betweeen the rock units in an easy to understan way. The porosity increases as you go deeper, contrary to what is normal.
+</br>
+
 
 <br>
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/PvD.PNG)
