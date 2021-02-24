@@ -36,6 +36,6 @@ Since this project was examining the relationship between variables present in t
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/ALL%20TRM%20Correlation%20Matrix%20Seaborn.PNG)
 ##### Fig. 1: Correlation Matrix of all samples from the wells
 
-
-
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/TRM%20Lower%20Correlation%20Matrix%20Seaborn.PNG)
+##### Fig. 2: Correlation Matrix of samples from lower section of unit
 
