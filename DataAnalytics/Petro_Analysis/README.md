@@ -1,4 +1,4 @@
-# Countrywide Happiness as a Proxy of Food Security and Quality
+# Petrographic Analysis of High Porosity Rock Unit in Illinois Basin
 <br>**Concepts Applied:** Data Collection, Data Cleaning/Scrubbing, Accessing Database Tables, Data Analysis, Data Visualization</br>
 <br>**Languages:** Python, SQL, Excel</br>
 <br>**Libraries Used:** Numpy, Pandas, Seaborn, SQLite3</br>
