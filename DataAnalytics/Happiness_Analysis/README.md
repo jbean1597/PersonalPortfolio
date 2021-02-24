@@ -12,8 +12,8 @@
 
 ### Findings at a Glance
 * As expected, the higher a country scores on the World Happiness Report, the higher it is likely to score in food security metrics (Overall security, affordability, availability, quality, and resilience of supply)
-  * Strong correlation between food security metrics and certain World Happiness Report variables (Score, GDP/capita, Social Support, and Healthy Life Expectancy); values between 0.75-**0.95**
-  * Weaker correlation between other WHR variables (Freedom to Make Life Choices and Perceptions of Corruption) was less impactful, however still significant ranging from 0.35-0.5
+  * Strong correlation between food security metrics and certain World Happiness Report variables (Score, GDP/capita, Social Support, and Healthy Life Expectancy); values between **0.75-*0.95***
+  * Weaker correlation between other WHR variables (Freedom to Make Life Choices and Perceptions of Corruption) was less impactful, however still significant ranging from **0.35-0.5**
 * These findings are understood by further researcher exploring the political dogma and cultural attitudes/climates of countries in the analysis
   * Scandinavian countries score top ranks in happiness year after year due, in part, to their left-leaning politics allowing an expansive amount of freedoms to its citizens directly increasing perceived happiness. This secondarily affects food security as Finnish culture places an importance on wellbeing of the individual, leading to higher quality food and produce being subsidized and widely available.  
   * The inverse is true for countries that ranked low in the World Happiness Report; countries in sub-Saharan Africa scored low in metrics due to socioeconomic, historical, and civil hardships that are present after centuries of volatility. These hardships avert attention away from societal improvement and individual wellbeing to other, more vital causes such as infrastructure, subsidies for other sectors (i.e. Industrial/Labor), and in some less fortunate cases, corruption; These decisions/actions contribute to lowering food security in the country substantially.
