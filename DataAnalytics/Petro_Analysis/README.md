@@ -48,11 +48,13 @@ The same trends were generally seen in the middle and lower section and after pr
 ## Further Analysis
 The visualizations I did in Excel were of 5 graphs with porosity and 6 graphs with depth, both against a variety of variables. The project lead wanted the RSWC and WC samples to be separated and visualized in their own graphs so in total there were 22 graphs produced from this data. Below will be a sample of the most impactful visualizations with explanations why they were important.
 
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/CvP.PNG)
+##### Fig. 4: Total Cements vs. Porosity
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/IllvP.PNG)
+##### Fig. 5: Total Illite vs. Porosity
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/IvD.png)
+##### Fig. 6: Total Illite vs. Depth
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/IvP.PNG)
+##### Fig. 7: IGV vs. Porosity
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/PvD.PNG)
+##### Fig. 8: Porosity vs. Depth
