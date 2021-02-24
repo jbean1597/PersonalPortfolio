@@ -37,6 +37,7 @@ Since this project was examining the relationship between variables present in t
 ##### Fig. 1: Correlation Matrix of all samples from the wells
 </br>
 While looking at all the samples reveals overall trends from the entire dataset, the project was more interested in 2 sections specifically, the middle and the lower units. The most porous and thickest rock unit were in these and they were the primary area where the carbon sequestration would take place. Given that, I could quickly produce heatmaps for both these units. 
+
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/TRM%20Middle%20Correlation%20Matrix%20Seaborn.PNG)
 ##### Fig. 2: Correlation Matrix of samples from middle section of unit
 
