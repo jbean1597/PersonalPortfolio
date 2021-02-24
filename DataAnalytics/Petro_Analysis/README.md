@@ -33,9 +33,14 @@ Data was gathered as stated above in Excel and then transferred into a CSV and u
 Since this project was examining the relationship between variables present in this rock unit I decided a correlation matrix would be the best way to visualize a correlation between all the variables and identify important trends. Below is the correlation matrix produced from all the rotary sidewall cores(RSWC) and whole core(WC) samples in the wells. The green boxes correspond to relationships that I previously knew existed and were looking for while the blue boxes correspond with relationships we did not expect.
 
 #### Correlation Matrices
-![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/ALL%20TRM%20Correlation%20Matrix%20Seaborn.PNG)
+<br>![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/ALL%20TRM%20Correlation%20Matrix%20Seaborn.PNG)
 ##### Fig. 1: Correlation Matrix of all samples from the wells
+</br>
+While looking at all the samples reveals overall trends from the entire dataset, the project was more interested in 2 sections specifically, the middle and the lower units. The most porous and thickest rock unit were in these and they were the primary area where the carbon sequestration would take place. Given that, I could quickly produce heatmaps for both these units. 
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/TRM%20Middle%20Correlation%20Matrix%20Seaborn.PNG)
+##### Fig. 2: Correlation Matrix of samples from middle section of unit
 
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/TRM%20Lower%20Correlation%20Matrix%20Seaborn.PNG)
-##### Fig. 2: Correlation Matrix of samples from lower section of unit
+##### Fig. 3: Correlation Matrix of samples from lower section of unit
+
 
