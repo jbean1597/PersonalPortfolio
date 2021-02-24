@@ -16,18 +16,22 @@ I was introduced to coding my last year in university and since then have cultiv
 
 ### Correlation Matrix Heatmap from All Samples
 This heatmap was the first visualization produced from the data after bringing it into an SQL database and loading it into Python. The green boxes are relationships we were expecting and were glad to find, the blue boxes are relationships that were anomalous and that I decided to do further analysis on.
-![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/TRM%20Lower%20Correlation%20Matrix%20Seaborn.PNG)
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/ALL%20TRM%20Correlation%20Matrix%20Seaborn.PNG)
 
 #### Graph of Porosity vs. Depth
 This graph shows the odd relationship present in this rock of porosity increasing as the depth increases. This is contrary to the normal relationship seen and was what really launched this project into the unit for carbon sequestration and research.
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/PvD.PNG)
 
 #### Total Cements vs. Porosity
-
+Shown in this plot is the relationship of cement abundances in all the different units that were analyzed. Although the lower unit has similar levels of cements as the other units, it has much more porosity on average.
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/CvP.PNG)
 
 #### Intergranular Volume vs. Porosity
+Finally, this plot explained a lot as the relationship between IGV and porosity has a limiting factor around 40% IGV. This is important since the abundance of illite in the samples collected barely ever went past 20%. With this info, the project then began using an SEM on specific samples used in this analysis and found a variation of illite present in the lower sections that has a large amount of micro porosity.
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/IvP.PNG)
+
+### Final Thoughts
+This analysis began uncovering trends as soon as the EDA was conducted and led to a confirmation of the importance of illite in the diagenetic history of the rock unit. The report produced along with this was presented to the project lead and was a springboard for future analyses with both SEM and further point-counting. Micro porosity within the illite grains in the lower and middle sections due to a variation to their crystal habit is the cause of the differences in the porosity values seen between units; the lower and middle units contained the most of that variant and along with that had the highest porosity values.
 
 
 
