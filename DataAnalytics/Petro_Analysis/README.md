@@ -47,14 +47,29 @@ The same trends were generally seen in the middle and lower section and after pr
 
 ## Further Analysis
 The visualizations I did in Excel were of 5 graphs with porosity and 6 graphs with depth, both against a variety of variables. The project lead wanted the RSWC and WC samples to be separated and visualized in their own graphs so in total there were 22 graphs produced from this data. Below will be a sample of the most impactful visualizations with explanations why they were important.
-
+<br>
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/CvP.PNG)
 ##### Fig. 4: Total Cements vs. Porosity
+This graph was produced to see the relationships of cements and porosity in each unit. It shows that the lower unit specifically has much more porosity even though it has a similar amount of cements as all the other units. This was the first to spark interest into studying the specific cements further in a SEM microscope. 
+</br>
+<br>
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/IllvP.PNG)
 ##### Fig. 5: Total Illite vs. Porosity
-![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/IvD.png)
-##### Fig. 6: Total Illite vs. Depth
+This graph further exemplified the trends found in figure 4 but with a focus on illite in the samples. Along with this graph, the other cements were also graphed and they showed much more variation and little to no correlation, exactly as seen in the correlation matrix.
+</br>
+<br>
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/IvP.PNG)
-##### Fig. 7: IGV vs. Porosity
+##### Fig. 6: IGV vs. Porosity
+At this point the story began to come together with the visualization of intergranular volume and porosity. It shows a limiting factor in the porosity of the sample that we had not seen before, a sharp drop-off in porosity when IGV passes 40%. This is odd since IGV inherently includes porosity in its calculation of the *entire* volume of the rock minus the grain volume. This was explored later and was due to the samples with more than 40% IGV were within the Argenta and Eau Claire, two units with little to no porosity and cements filling every pore. This graph shows the point for the maximum amount of porosity with respect to IGV is found between 25-40% iGV and can climb as high as 30% porosity, an extremely high value that you would never expect to find more than 6000 feet below the surface.
+</br>
+<br>
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/IvD.png)
+##### Fig. 7: Total Illite vs. Depth
+
+</br>
+
+<br>
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/PvD.PNG)
 ##### Fig. 8: Porosity vs. Depth
+The inverse relationship between porosity and depth was seen in this graph along with a clear distinction betweeen the rock units in an easy to understan way. The porosity increases as you go deeper, contrary to what is normal.  
+</br>
