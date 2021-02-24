@@ -65,7 +65,7 @@ At this point the story began to come together with the visualization of intergr
 <br>
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/IvD.png)
 ##### Fig. 7: Total Illite vs. Depth
-
+This graph again shows the lack of distinction in illite abundances between the units. There is little to no variation with only a few outliers.
 </br>
 
 <br>
