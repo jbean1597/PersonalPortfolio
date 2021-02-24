@@ -14,8 +14,20 @@ I was introduced to coding my last year in university and since then have cultiv
 * Findings were compiled into an accessory quarterly report and presented to the project lead
 * Resulting from this analysis, illite micro porosity was identified as a key factor in porosity levels, SEM analysis revealed the abundance of it and the crystal habit of the new illite variation found
 
-### Correlation Matrix Heatmap from the Lower Unit
-![]()
+### Correlation Matrix Heatmap from All Samples
+This heatmap was the first visualization produced from the data after bringing it into an SQL database and loading it into Python. The green boxes are relationships we were expecting and were glad to find, the blue boxes are relationships that were anomalous and that I decided to do further analysis on.
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/TRM%20Lower%20Correlation%20Matrix%20Seaborn.PNG)
+
+#### Graph of Porosity vs. Depth
+This graph shows the odd relationship present in this rock of porosity increasing as the depth increases. This is contrary to the normal relationship seen and was what really launched this project into the unit for carbon sequestration and research.
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/PvD.PNG)
+
+#### Total Cements vs. Porosity
+
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/CvP.PNG)
+
+#### Intergranular Volume vs. Porosity
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/IvP.PNG)
 
 
 
