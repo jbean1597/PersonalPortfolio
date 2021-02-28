@@ -12,7 +12,11 @@ I was introduced to coding my last year in university and since then have cultiv
 * Analysis was carried out through Python, SQL, and Excel
 * Rock unit was separated into 3 sections: Upper, Middle, and Lower
 * Findings were compiled into an accessory quarterly report and presented to the project lead
-* Resulting from this analysis, illite micro porosity was identified as a key factor in porosity levels, SEM analysis revealed the abundance of it and the crystal habit of the new illite variation found
+* Resulting from this analysis, illite microporosity was identified as a key factor in porosity levels, SEM analysis revealed the abundance of it and the crystal habit of the new illite variation found called "Hairy Illite" pictured below in sections B and C
+
+### SEM Image of Illite Types Present Throughout the Mt. Simon Sandstone
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/SEM-images-of-clays.png)
+
 
 ### Correlation Matrix Heatmap from All Samples
 This heatmap was the first visualization produced from the data after bringing it into an SQL database and loading it into Python. The green boxes are relationships we were expecting and were glad to find, the blue boxes are relationships that were anomalous and that I decided to do further analysis on.
@@ -27,11 +31,11 @@ Shown in this plot is the relationship of cement abundances in all the different
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/CvP.PNG)
 
 #### Intergranular Volume vs. Porosity
-Finally, this plot explained a lot as the relationship between IGV and porosity has a limiting factor around 40% IGV. This is important since the abundance of illite in the samples collected barely ever went past 20%. With this info, the project then began using an SEM on specific samples used in this analysis and found a variation of illite present in the lower sections that has a large amount of micro porosity.
+Finally, this plot explained a lot as the relationship between IGV and porosity has a limiting factor around 40% IGV. This is important since the abundance of illite in the samples collected barely ever went past 20%. With this info, the project then began using an SEM on specific samples used in this analysis and found a variation of illite present in the lower sections that has a large amount of microporosity.
 ![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/IvP.PNG)
 
 ### Final Thoughts
-This analysis began uncovering trends as soon as the EDA was conducted and led to a confirmation of the importance of illite in the diagenetic history of the rock unit. The report produced along with this was presented to the project lead and was a springboard for future analyses with both SEM and further point-counting. Micro porosity within the illite grains in the lower and middle sections due to a variation to their crystal habit is the cause of the differences in the porosity values seen between units; the lower and middle units contained the most of that variant and along with that had the highest porosity values.
+This analysis began uncovering trends as soon as the EDA was conducted and led to a confirmation of the importance of illite in the diagenetic history of the rock unit. The report produced along with this was presented to the project lead and was a springboard for future analyses with both SEM and further point-counting. Microporosity within the illite grains in the lower and middle sections due to a variation to their crystal habit is the cause of the differences in the porosity values seen between units; the lower and middle units contained the most of that variant and along with that had the highest porosity values.
 
 
 
