@@ -79,7 +79,7 @@ The inverse relationship between porosity and depth was seen in this graph along
 ## Final Results
 The above report was created along with documentation including microscope photos of thin section samples, the graphs shown above and 17 more, and all the Python code along with the heatmap and correlation matrix images produced. After it was reviewed and refined, it was presented to the project lead as an extra quarterly report alongside the other one I was assigned. This led to SEM analysis on multiple thin sections seen in the graphs and report for both microscopic analysis and electron diffraction spectroscopy (EDS). This confirmed the developing hypothesis that the illite within the units had significant microporosity due to a difference in its crystal habit, coincidentally this variation was seen much more prominently in the lower section with the next more prevalent one being the middle. This variation of illite was named "hairy illite" due to its resemblance to strands of hair. This hairy illite can be seen in sections B and C of the SEM image below, while the more common types of illite (those seen outside of the lower Mt. Simon) are seen in the other sections exhibiting no microporosity.
 
-![]()
+![](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/Petro_Analysis/images/SEM-images-of-clays.png)
 ##### Fig. 9: SEM Image of Illite Types Present Throughout the Mt. Simon Sandstone
 
 
