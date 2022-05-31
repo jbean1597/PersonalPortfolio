@@ -1,11 +1,11 @@
 # Webscraper Scripts
 <br>**Concepts Applied:** Data Gathering, API, Webscraping, Web Reporting </br>
-<br>**Languages:** Python in Jupyter Notebook</br>
-<br>**Libraries Used:** BeautifulSoup, Requests</br>
+<br>**Languages:** Python, SQL, Tableau <br>
+<br>**Libraries Used:** BeautifulSoup, Requests, Selenium, Pandas </br>
 
 ## TL;DR
-* Webscraper produced to collect data from stock data on Yahoo Finance
-* Collects stock price, symbol, name, and percent change
+* Webscraper produced to collect data from job descriptions on Indeed from a variety of career fields
+* Collects position title, company name, location, job description, salary (if posted)
 
 
 ### Final Results 
