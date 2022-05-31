@@ -1,4 +1,4 @@
-# Webscraper Scripts
+# Web Scraper Scripts
 <br>**Concepts Applied:** Data Gathering/Collection, Data Analysis, Webscraping, Web Reporting </br>
 <br>**Languages:** Python, SQL, Tableau <br>
 <br>**Libraries Used:** BeautifulSoup, Selenium, Pandas </br>
