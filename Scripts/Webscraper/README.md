@@ -1,5 +1,5 @@
 # Webscraper Scripts
-<br>**Concepts Applied:** Data Gathering, API, Webscraping, Web Reporting </br>
+<br>**Concepts Applied:** Data Gathering/Collection, Data Analysis, Webscraping, Web Reporting </br>
 <br>**Languages:** Python, SQL, Tableau <br>
 <br>**Libraries Used:** BeautifulSoup, Requests, Selenium, Pandas </br>
 
