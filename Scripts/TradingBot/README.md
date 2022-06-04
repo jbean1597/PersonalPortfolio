@@ -1,5 +1,5 @@
 # Trading Bot Scripts
-<br>**Concepts Applied:** Data Gathering, Data Manipulation, API, Financial/Stock Traits </br>
+<br>**Concepts Applied:** Data Gathering, Data Cleaning, Data Manipulation, API, Financial/Stock Traits </br>
 <br>**Languages:** Python, Jupyter Notebook</br>
 <br>**Libraries Used:** Alpaca Trade API</br>
 
