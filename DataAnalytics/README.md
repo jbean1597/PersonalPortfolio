@@ -5,6 +5,7 @@ I was introduced to coding my last year in university and since then have cultiv
 ### Index
 1. [Petrographic Analysis of High Porosity Rock Unit](https://github.com/jbean1597/PersonalPortfolio/tree/main/DataAnalytics/Petro_Analysis)
 2. [Countrywide Happiness as a Proxy of Food Security](https://github.com/jbean1597/PersonalPortfolio/tree/main/DataAnalytics/Happiness_Analysis)
+3. [Environmental/Pollution Analysis and Visualizations]()
 
 
 ## Project 1: Petrographic Analysis of High Porosity Rock Unit
@@ -61,6 +62,18 @@ Correlation between availability in food supply and freedom to make life choices
 The analysis confirmed the hypothesis proposed and showed a very significant positive relationship between GDP/capita and overall wellbeing across multiple metrics, including all food security and World Happiness Report metrics. Even among relationships with low correlation values as shown above, GDP/capita is still a deciding factor in where a country places in the reports.
 
 
+
+## Project 3: Environmental/Pollution Analysis and Visualization
+This project combines two areas of my life that I have a passion for, the environment and data analysis, and a problem I want to visualize and analyze for myself- pollution's effect on multiple different environmental factors. Pollution is widely known to be one of the worst problems we have to face in the coming years and my analysis is a historical analysis into how it has affected and is related to population density, land quality, meteorological factors such as precipitation and evaporation, temperature, and threatened species. 
+
+* Data sourced from Kaggle datasets [Environment Dataset - UNdata](https://www.kaggle.com/datasets/vineethakkinapalli/united-nations-environment-data?select=Land.csv) and [Spatial Data Repository (satellite data and more)](https://www.kaggle.com/datasets/reubencpereira/spatial-data-repo)
+* Environment Dataset - UNdata tracks: CO2 emissions, land quality, water availability, and threatened species
+* Spatial Data Repository tracks: 31 variables including precipitation, evaporation, conflicts/wars, poverty, soil quality, and temperature
+* Data cleaned, stored, and analyzed in a combination of BigQuery, Google Sheets, and Python
+* **Hypothesis:** CO2 pollution will be primarily linked to temperature, precipitation, and evaporation (obviously) and secondarily linked to unexpected variables such as soil quality, population density, and threatened species.
+
+### Final Thoughts
+* Still to be figured out
 
 
 | Contact Me    | Links         |
