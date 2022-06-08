@@ -16,3 +16,7 @@ The structure of the projects will be one week long (52 projects by the end) and
 
 ### Data Sources
 The data will be collected from a variety of sources - web scraped data, Kaggle, Google Datasets, etc. All sources will be linked and credited within the README of each project.
+
+
+#### Week 1: [Laptop Prices]()
+* Data Sourced from Kaggle dataset - [2022 March Laptop data](https://www.kaggle.com/datasets/kuchhbhi/2022-march-laptop-data)
