@@ -1,5 +1,5 @@
 # Year In Code
-On the journey to a career in data analytics, it's clear that the most wanted quality that companies are looking for is experience. Projects are the best way and what better way to do that other than committing to working on an analysis or visualization project every day for a whole year?
+On the journey to a career in data analytics, it's clear that the most wanted quality that companies are looking for is experience. Projects are the best way to gain/show that experience and what better way to do that other than committing to working on an analysis or visualization project every day for a whole year?
 
 ## The Goals
 * Improve all aspects of the data analysis process and skillset
