@@ -1,6 +1,7 @@
 # Week 1: Laptop Prices By Components and Other Metrics
 ### Data
-* Source - Kaggle [2022 March Laptop data](https://www.kaggle.com/datasets/kuchhbhi/2022-march-laptop-data)
+* Source: Kaggle 
+  - [2022 March Laptop data](https://www.kaggle.com/datasets/kuchhbhi/2022-march-laptop-data)
 
 
 ## The Problem
