@@ -1,4 +1,7 @@
 # Week 1: Laptop Prices By Components and Other Metrics
+### Data
+* Source - Kaggle [2022 March Laptop data](https://www.kaggle.com/datasets/kuchhbhi/2022-march-laptop-data)
+
 
 ## The Problem
 Laptop prices seem to rise every day and with the sheer amount of models and different components within them, it's almost impossible to discern which model with what components is the best bang for your buck. This project will explore the data and see what insights can be taken to help make the best decison. 
