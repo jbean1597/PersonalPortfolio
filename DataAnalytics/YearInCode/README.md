@@ -14,5 +14,5 @@ On the journey to a career in data analytics, it's clear that the most wanted qu
 ## The Projects
 The structure of the projects will be one week long (52 projects by the end) and each day will be a different aspect of the data analysis process. I will follow the Google Data Analytics framework of **Ask, Prepare, Process, Analyze, Share, and Act** with each step being a certain day's contribution to this project - i.e. Day 1 will be the Ask phase, Day 2 the Prepare phase, etc.
 
-### The Data
-The data will be collected from a variety of sources - web scraped data, Kaggle, Google Datasets, etc. 
+### Data Sources
+The data will be collected from a variety of sources - web scraped data, Kaggle, Google Datasets, etc. All sources will be linked and credited within the README of each project.
