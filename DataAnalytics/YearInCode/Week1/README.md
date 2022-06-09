@@ -49,3 +49,11 @@ df.info()
 it is seen that the columns ram_gb and display_size are classified as objects when they should be integers/floats.
 
 This requires some further exploration so calling the unique() command on each row we can see why it is classified as such. The ram_gb column contains a mix of integers and brand/type of ram names; the display_size column contains values that don't make any sense such as 'All', '6th', '8th', 'ITW', '0'. 
+
+This is remedied by using the following code which removes the incorrect values and switches the type to int and float respectively:
+```python
+df = df[~df['ram_gb'].str.contains('|'.join(drop_ram_values))]
+df['ram_gb'] = df['ram_gb'].astype(str).astype(int)
+df = df[~df['display_size'].str.contains('|'.join(drop_display_values))]
+df['display_size'] = df['display_size'].astype(str).astype(float)
+```
