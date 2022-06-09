@@ -15,9 +15,19 @@ Laptop prices seem to rise every day and with the sheer amount of models and dif
 * **Hypotheses:** Apple will consistently be a higher price for the same components and the CPU or GPU will have the largest effect on price
 
 ## Day 2: Prepare
+* What data needs to be collected and where will it come from?
+  - Laptop prices, brands, and components. The data comes from scraped data collected by the author of the Kaggle dataset, Santosh Kuma.
+* Where is the data located?
+  - The data was dowloaded from Kaggle and is stored internally.
+* What needs to be figured out and how will it be done?
+  - Relationships between price and the other variables, i.e. price vs. processor, price vs. brand, etc.
+  - Relationships will be found through correlation matrices and analysis.
+
+## Day 3: Process
 ### Objectives
 * Clean data of null values (25 rows have nulls)
 * Examine datatypes for inconsistencies 
+* Remove duplicates
 * Verify that each column has consistent format
 
 First we import the data and create a copy of the DataFrame so we can retain the original in the case that we need to recover the original data.
@@ -57,3 +67,14 @@ df['ram_gb'] = df['ram_gb'].astype(str).astype(int)
 df = df[~df['display_size'].str.contains('|'.join(drop_display_values))]
 df['display_size'] = df['display_size'].astype(str).astype(float)
 ```
+
+##### Duplicates
+With:
+```python
+df.duplicated().sum()
+```
+We see that there are 22 duplicates in the DataFrame. Removing them with 
+```python
+df = df.drop_duplicates(keep='first')
+``` 
+returns our fully cleaned and ready to use DataFrame of 849 rows by 23 columns.
