@@ -18,7 +18,7 @@ df_laptop_modified = df_laptop.copy()
 ```
 The resulting DataFrame is **896 rows x 23 columns**
 
-##### Null Values
+#### Null Values
 ```python
 df = df_laptop_modified.dropna()
 ```
@@ -27,12 +27,12 @@ This removes 25 rows from the DataFrame - all null values were within the *ram_g
 df['ram_gb'].isnull().sum()
 ```
 
-##### Consistency Issues
+#### Consistency Issues
 After the null values were taken care of, there was still a problem with inconsistent and wrong datatypes in the DataFrame. Using:
 ```python
 df.info()
 ```
-it is seen that the columns ram_gb and display_size are classified as objects when they should be integers/floats.
+it is seen that the columns *ram_gb* and *display_size* are classified as objects when they should be integers/floats.
 
 This requires some further exploration so calling the unique() command on each row we can see why it is classified as such. The *ram_gb* column contains a mix of integers and brand/type of ram names; the *display_size* column contains values that don't make any sense such as 'All', '6th', '8th', 'ITW', '0'. 
 
@@ -44,7 +44,9 @@ df = df[~df['display_size'].str.contains('|'.join(drop_display_values))]
 df['display_size'] = df['display_size'].astype(str).astype(float)
 ```
 
-##### Duplicates
+This results in a DataFrame with **831 rows x 23 columns**.
+
+#### Duplicates
 With:
 ```python
 df.duplicated().sum()
