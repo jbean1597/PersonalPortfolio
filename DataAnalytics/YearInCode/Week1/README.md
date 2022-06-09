@@ -15,7 +15,7 @@ Laptop prices seem to rise every day and with the sheer amount of models and dif
 * **Hypotheses:** Apple will consistently be a higher price for the same components and the CPU or GPU will have the largest effect on price
 
 ## Day 2: Prepare
-#### Objectives
+### Objectives
 * Clean data of null values (25 rows have nulls)
 * Examine datatypes for inconsistencies 
 * Verify that each column has consistent format
@@ -36,3 +36,16 @@ The resulting DataFrame is 896 rows x 23 columns
 ```python
 df = df_laptop_modified.dropna()
 ```
+This removes 25 rows from the DataFrame - all null values were within the ram_gb column, found by using:
+```python
+df['ram_gb'].isnull().sum()
+```
+
+##### Consistency Issues
+After the null values were taken care of, there was still a problem with inconsistent and wrong datatypes in the DataFrame. Using:
+```python
+df.info()
+```
+it is seen that the columns ram_gb and display_size are classified as objects when they should be integers/floats.
+
+This requires some further exploration so calling the unique() command on each row we can see why it is classified as such. The ram_gb column contains a mix of integers and brand/type of ram names; the display_size column contains values that don't make any sense such as 'All', '6th', '8th', 'ITW', '0'. 
