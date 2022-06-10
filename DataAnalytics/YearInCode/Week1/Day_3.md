@@ -55,4 +55,4 @@ We see that there are 21 duplicates in the DataFrame. Removing them with
 ```python
 df = df.drop_duplicates(keep='first')
 ``` 
-returns our fully cleaned and ready to use DataFrame of **810 rows by 23 columns**.
+returns our fully cleaned and ready to use DataFrame of **794 rows by 23 columns**.
