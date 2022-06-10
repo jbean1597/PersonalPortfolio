@@ -33,3 +33,10 @@ Laptop prices seem to rise every day and with the sheer amount of models and dif
 This dataset has null values, erroneously assigned variables("Missing" instead of null), wrong data types in columns (strings in columns that should be int/float), and duplicates.
 
 The full, in-depth cleaning process can be found [here](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/Day_3.md)
+
+## Day 4: Analyze
+### Objectives
+* Examine relationships between different variables and how they affect price
+* Visulaize the relationships between variables, including brand name relationships
+
+Once the data is cleaned, now the fun part begins where we can actually derive insights from our dataset. The full analysis process can be found [here]()
