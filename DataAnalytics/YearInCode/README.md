@@ -17,5 +17,5 @@ The data will be collected from a variety of sources - web scraped data, Kaggle,
 ## The Projects
 The structure of the projects will be one week long (52 projects by the end) and each day will be a different aspect of the data analysis process. I will follow the Google Data Analytics framework of **Ask, Prepare, Process, Analyze, Share, and Act** with each step being a certain day's contribution to this project - i.e. Day 1 will be the Ask phase, Day 2 the Prepare phase, etc.
 
-#### Week 1: [Laptop Prices By Components and Other Metrics]()
+#### Week 1: [Laptop Prices By Components and Other Metrics](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/README.md)
 * Data Sourced from Kaggle dataset - [2022 March Laptop data](https://www.kaggle.com/datasets/kuchhbhi/2022-march-laptop-data)
