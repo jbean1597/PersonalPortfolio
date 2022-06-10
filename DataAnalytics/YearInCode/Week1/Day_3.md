@@ -1,5 +1,5 @@
-## Day 3: Process
-### Objectives
+# Day 3: Process
+## Objectives
 * Clean data of null values (25 rows have nulls)
 * Examine datatypes for inconsistencies 
 * Remove duplicates
@@ -18,7 +18,7 @@ df_laptop_modified = df_laptop.copy()
 ```
 The resulting DataFrame is **896 rows x 23 columns**
 
-#### Null Values
+### Null Values
 ```python
 df = df_laptop_modified.dropna()
 ```
@@ -36,7 +36,7 @@ df = df.dropna(subset = ['os'])
 ``` 
 These 16 values are taken out.
 
-#### Consistency Issues
+### Consistency Issues
 After the null values were taken care of, there was still a problem with inconsistent and wrong datatypes in the DataFrame. Using:
 ```python
 df.info()
@@ -55,7 +55,7 @@ df['display_size'] = df['display_size'].astype(str).astype(float)
 
 This results in a DataFrame with **810 rows x 23 columns**.
 
-#### Duplicates
+### Duplicates
 With:
 ```python
 df.duplicated().sum()
