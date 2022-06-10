@@ -32,4 +32,4 @@ Laptop prices seem to rise every day and with the sheer amount of models and dif
 
 This dataset has null values, erroneously assigned variables("Missing" instead of null), wrong data types in columns (strings in columns that should be int/float), and duplicates.
 
-The cleaning process can be found [here]()
+The full, in-depth cleaning process can be found [here](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/Day_3.md)
