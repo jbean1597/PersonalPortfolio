@@ -27,6 +27,15 @@ This removes 25 rows from the DataFrame - all null values were within the *ram_g
 df['ram_gb'].isnull().sum()
 ```
 
+The largest amount of null values is found in the *processor_gnrtn* column with 243 nulls. This is not a problem since certain varieties of processors do not have generations so they will be left in. 
+
+After that is the *os* column with 16 nulls. These, unlike the *processor_gnrtn* column, need to be taken out since adding in the cost of an operating system will skew these entries from some of the cheapest laptops to some of the most expensive.
+Using:
+```python
+df = df.dropna(subset = ['os'])
+``` 
+These 16 values are taken out.
+
 #### Consistency Issues
 After the null values were taken care of, there was still a problem with inconsistent and wrong datatypes in the DataFrame. Using:
 ```python
@@ -44,7 +53,7 @@ df = df[~df['display_size'].str.contains('|'.join(drop_display_values))]
 df['display_size'] = df['display_size'].astype(str).astype(float)
 ```
 
-This results in a DataFrame with **831 rows x 23 columns**.
+This results in a DataFrame with **810 rows x 23 columns**.
 
 #### Duplicates
 With:
