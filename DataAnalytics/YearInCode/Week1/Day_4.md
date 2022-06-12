@@ -24,7 +24,7 @@ The Lenovo IdeaPad 5 has an incredibly strong lineup for just barely over $1000.
 First up, congrats if you can buy any of these - the price tags are almost getting into used car territory. The 2021 Apple Pro (**$4029.87**) with the incredibly powerful M1 Max chip is the crowd favorite here, it has all the bells and whistles including 1TB SSD, 32GB RAM, along with the increased efficiency from the M1 architecture. Next is a *budget* version of our final laptop - the ASUS ROG with 1TB SSD, 32GB of RAM, Ryzen 9, and (the true differentiator) a 4GB GPU all for *only* **$2179.54**. Finally, if you have money to blow and want the absolute best machine money can buy then you'd be more than happy with the ASUS Zephyrus. Sporting a 3TB SSD, Intel Core i9 CPU, 32GB of RAM, and a whopping 6GB GPU there's no doubt it is one of the most powerful laptops out there. You only need the equivalent to a down payment on a mansion in Texas, a cool **$5745.87**. 
 
 
-[Correlation Heatmap](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/Corr_heatmap.png)
+![Correlation Heatmap](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/Corr_heatmap.png)
 
 ### Deep Dive into the Data
 #### Singular Components With The Most/Least Effect on Price
@@ -32,13 +32,13 @@ First up, congrats if you can buy any of these - the price tags are almost getti
 * RAM Size
 * SSD Size
 * GPU Size
-[RAM Size vs. Price](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/Ram's%20Effect%20on%20Price.png)
+![RAM Size vs. Price](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/Ram's%20Effect%20on%20Price.png)
 
 ##### Least (in order of influence)
 * Display Size
 * HDD Size
 * Processor Series (except for top of the line processor series like the M1, Core i9, and Ryzen 9 chips)
-[HDD Size vs. Price](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/HDD's%20Effect%20on%20Price.png)
+![HDD Size vs. Price](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/HDD's%20Effect%20on%20Price.png)
 
 #### Final Results
 While there were certainly components that had a larger impact on the overall price, the complete story is one of needing to consider multiple variables.  Overall, RAM and SSD size had a similar positive relationship to price, GPU also sharing that relationship to a slightly lesser amount. Display size had almost no correlation to price along with HDD size. The lack of correlation in HDD size is likely due to the relationship that it has with SSD size, most laptops will combine the two storage systems but the effect/price of SSD drives is much higher than the HDD's effect.
