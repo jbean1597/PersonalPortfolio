@@ -39,4 +39,18 @@ The full, in-depth cleaning process can be found [here](https://github.com/jbean
 * Examine relationships between different variables and how they affect price
 * Visulaize the relationships between variables, including brand name relationships
 
-Once the data is cleaned, now the fun part begins where we can actually derive insights from our dataset. The full analysis process can be found [here]()
+Once the data is cleaned, now the fun part begins where we can actually derive insights from our dataset. The full analysis process can be found [here](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/Day_4.md)
+
+### Results
+* RAM and SSD size had the largest impact on price, while CPU and GPU still affected price heavily the reasoning for it was due to the the increased prices of the top end processor series and GPU sizes (only being found in very expensive laptops)
+  - HDD and display size showed little to no relationship (sometimes even being inversely related such as with HDD size)
+* Apple did consistently charge much more - almost 2.5x more for the exact same components as other brands
+* Dell, Acer, and ASUS were the opposite - consistently providing powerful and efficient budget laptops
+
+### Key Takeaways for Your Next Shopping Trip
+* Go with Apple for the M1/M2 chip and ecosystem
+* Go for Dell, Acer, and ASUS for quality laptop brands then spend up from there for your needs
+
+
+## Day 5: Visualize
+
