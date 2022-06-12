@@ -39,7 +39,7 @@ First up, congrats if you can buy any of these - the price tags are almost getti
 * Display Size
 * HDD Size
 * Processor Series (except for top of the line processor series like the M1, Core i9, and Ryzen 9 chips)
-* 
+
 ![HDD Size vs. Price](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/HDD's%20Effect%20on%20Price.png)
 
 ### Final Results
