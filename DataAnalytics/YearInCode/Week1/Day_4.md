@@ -14,7 +14,14 @@ Once the data is cleaned, it is exported out of the editor (VS Code) into a CSV 
   - HDD size had a very interesting trend with the highest price on average being with a 512GB HDD and the next highest being laptops with no HDD. The largest HDDs had the cheapest average prices
   - RAM size had an exponential relationship to price with a small increase between 4, 8, and 16GB before an almost 2.5x increase from 16GB to 32GB
 
-##### The Best Laptop Under $1000
+##### The Best Laptop Under $1000 (Student/Budget Laptop)
+The ASUS ROG and Dell Inspiron 15 laptops offer a lot of power for a relatively low cost. They both have a 1TB SSD drive and 8GB of ram. The ASUS ROG has a 4GB GPU and a Ryzen 7 CPU, pushing it to compete with higher cost laptop for hundreds less at **$948.87**. The Dell Inspiron 15 has a Ryzen 5 CPU with integrated Radeon GPU, coming in at only **$752.70**
+
+##### The Best Bang for Your Buck (Perfect for Data Analysts)
+The Lenovo IdeaPad 5 has an incredibly strong lineup for just barely over $1000. With a 1TB HDD and 512GB SSD drive paired with a Ryzen 7 and 16GB of RAM, there's no task (other than high quality video editing/rendering) that it can't do with ease. 
+
+##### Mr. Money Bags (The Most Powerful Laptops)
+First up, congrats if you can buy any of these - the price tags are almost getting into used car territory. The 2021 Apple Pro (**$4029.87**) with the incredibly powerful M1 Max chip is the crowd favorite here, it has all the bells and whistles including 1TB SSD, 32GB RAM, along with the increased efficiency from the M1 architecture. Next is a *budget* version of our final laptop - the ASUS ROG with 1TB SSD, 32GB of RAM, Ryzen 9, and (the true differentiator) a 4GB GPU all for *only* **$2179.54**. Finally, if you have money to blow and want the absolute best machine money can buy then you'd be more than happy with the ASUS Zephyrus. Sporting a 3TB SSD, Intel Core i9 CPU, 32GB of RAM, and a whopping 6GB GPU there's no doubt it is one of the most powerful laptops out there. You only need the equivalent to a down payment on a mansion in Texas, a cool **$5745.87**. 
 
 
 [Correlation Heatmap](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/Corr_heatmap.png)
