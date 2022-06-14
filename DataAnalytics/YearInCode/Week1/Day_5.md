@@ -22,3 +22,5 @@ These graphs all show a positive relationship with average price - confirming th
 #### Interesting Inverse Relationship with HDD Size
 ![HHD Size vs Average Price](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/HDD's%20Effect%20on%20Price.png)
 
+The smaller HDDs show a correlation to higher prices which isn't what would be expected. 
+
