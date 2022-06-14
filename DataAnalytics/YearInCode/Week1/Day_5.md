@@ -17,6 +17,8 @@ Next, in the spreadsheet, there were multiple graphs generated following the cor
 ![SSD Size vs Average Price](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/SSD's%20Effect%20on%20Price.png)
 ![GPU Size vs Average Price](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/GPU's%20Effect%20on%20Price.png)
 
+These graphs all show a positive relationship with average price - confirming the findings within the heatmap. What was almost more interesting though, is the relationship with HDD size.
+
 #### Interesting Inverse Relationship with HDD Size
 ![HHD Size vs Average Price](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/HDD's%20Effect%20on%20Price.png)
 
