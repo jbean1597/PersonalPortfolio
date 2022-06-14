@@ -24,7 +24,7 @@ These graphs all show a positive relationship with average price - confirming th
 
 The smaller HDDs show a correlation to higher prices which isn't what would be expected. This is explained upon further analysis with the fact that the relationship between SSD and HDD drives is the driving factor for why the graph looks the way it does. Below is a graph of the effect on price that the *combination* of SSD and HDD size has with the red bars corresponding to laptops with no HDD. We can clearly see the effect that SSD size has on the price and how HDD size correlates to cheaper laptops since the SSD size in laptops with large HDDs is normally smaller - thus driving the price down. Overall, the SSD has a much larger effect on price.
 
-![SSD and HDD Size vs Average Price](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/SSD_HDD%20Combo%20and%20Price.png)
+![SSD and HDD Size vs Average Price](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/SSD_HDD%20Combo%20and%20Price%20(1).png)
 
 
 
