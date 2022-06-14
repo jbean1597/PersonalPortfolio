@@ -28,7 +28,8 @@ First up, congrats if you can buy any of these - the price tags are almost getti
 
 
 ## Deep Dive into the Data
-![Correlation Heatmap](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/Corr_heatmap.png)
+![Correlation Heatmap](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/Corr_heatmap1.png)
+
 
 ### Singular Components With The Most/Least Effect on Price
 #### Most (in order of influence)
