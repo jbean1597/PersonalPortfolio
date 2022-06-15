@@ -53,4 +53,21 @@ Once the data is cleaned, now the fun part begins where we can actually derive i
 
 
 ## Day 5: Visualize
+### Objectives
+* Calculate a variable for easy analysis and visualization across components
+* Examine correlation between components and price
+* Visualize relationship between variables and price
+
 The full visualization process can be found [here](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/Day_5.md)
+
+![Correlation Heatmap](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/Corr_heatmap1.png)
+### Positice Relationships
+![Average Price by Brand](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/Average%20Price%20by%20Brand.png)
+![RAM Size and Price](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/Ram's%20Effect%20on%20Price.png)
+![SSD Size and Price](
+https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/SSD's%20Effect%20on%20Price.png)
+![GPU Size and Price](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/GPU's%20Effect%20on%20Price.png)
+
+### Inverse or Interesting Relationships
+![HDD Size and Price](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/HDD's%20Effect%20on%20Price.png)
+![SSD & HDD Combo and Price](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/SSD_HDD%20Combo%20and%20Price%20(1).png)
