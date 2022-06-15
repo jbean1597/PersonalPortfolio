@@ -53,4 +53,4 @@ Once the data is cleaned, now the fun part begins where we can actually derive i
 
 
 ## Day 5: Visualize
-
+The full visualization process can be found [here](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/Day_5.md)
