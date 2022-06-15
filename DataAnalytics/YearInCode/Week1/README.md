@@ -71,3 +71,12 @@ https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCod
 ### Inverse or Interesting Relationships
 ![HDD Size and Price](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/HDD's%20Effect%20on%20Price.png)
 ![SSD & HDD Combo and Price](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/img/SSD_HDD%20Combo%20and%20Price%20(1).png)
+
+## Day 6: Act
+Since I am in the market for a new laptop (I have a 5 year old laptop that really struggles) I believe the insights from this will help me find the best laptop for my money. The way that will be accomplished is by using the insights gained from this analysis:
+* RAM & SSD are the most expensive components 
+* Brand plays a large role in price with some charging way more for the same components
+* A combination of an HDD and an SSD is most of the time more affordable than *not* having an HDD
+
+With this, I have narrowed down my choices to the ASUS ROG or the Dell Inspiron 15!
+
