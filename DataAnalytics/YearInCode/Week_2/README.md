@@ -1,4 +1,4 @@
-# Week 2: 
+# Week 2: Languages of the World
 ## Data
 * Source: United Nations Statistics Division
   - [Population by language, sex and urban/rural residence](https://data.un.org/Data.aspx?q=language&d=POP&f=tableCode%3a27#POP)
@@ -10,7 +10,8 @@ While there is not a "problem" per se to be solved with this week's dataset, tha
 * Does proximity influence languages spoken in that region? (i.e. are borders a discerning factor in defining the languages spoken?)
 * Do languages that are geographically close share more similarities?
 * How do languages migrate and spread?
-* What languages are the most common and also which are the most widespread?
+* What languages are the most common and also which are the most widespread? Which are the most localized/most resistant to globalization?
+* **Hypotheses:** Proximity and similarities will share a strong relationship, perhaps the strongest determining factor. English will be the most widespread language while Mandarin will be one of the least widespread languages, possibly behind some much less common languages
 
 ## Day 2: Prepare
 ### Objectives
