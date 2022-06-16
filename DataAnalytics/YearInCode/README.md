@@ -19,3 +19,4 @@ The structure of the projects will be one week long (52 projects by the end) and
 
 #### Week 1: [Laptop Prices By Components and Other Metrics](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1/README.md)
 * Data Sourced from Kaggle dataset - [2022 March Laptop data](https://www.kaggle.com/datasets/kuchhbhi/2022-march-laptop-data)
+#### Week 2:[]()
