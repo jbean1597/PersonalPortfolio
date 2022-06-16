@@ -20,5 +20,6 @@ The structure of the projects will be one week long (52 projects by the end) and
 #### Week 1: [Laptop Prices By Components and Other Metrics](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week1)
 * Data sourced from Kaggle dataset - [2022 March Laptop data](https://www.kaggle.com/datasets/kuchhbhi/2022-march-laptop-data)
 
-#### Week 2:[Languages of the World](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week_2)
-* Data sourced from the United Nations open datamart - [UNData](https://data.un.org/Data.aspx?q=language&d=POP&f=tableCode%3a27)
+#### Week 2: [Languages of the World](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week_2)
+* Data sourced from the United Nations Statistics Division - [Population by language, sex and urban/rural residence](https://data.un.org/Data.aspx?q=language&d=POP&f=tableCode%3a27)
+  - Last updated 2022/02/11
