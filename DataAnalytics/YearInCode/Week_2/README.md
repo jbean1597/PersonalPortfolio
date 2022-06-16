@@ -15,6 +15,15 @@ While there is not a "problem" per se to be solved with this week's dataset, tha
 
 ## Day 2: Prepare
 ### Objectives
-* 
+* What data needs to be collected and where will it come from?
+  - Data concerning the relationships of languages and the phonetics of them
+  - Data for the geographical area of a language and population demographics
+* Where is the data located?
+  - The World Atlas of Language Structures (WALS)
+  - UN Statistics Division
+* What needs to be figured out and how will it be done?
+  - Language families need to be visualized geographically
+  - Level of relation between languages through phonetics
+  - Level of spread of a laguage through migration and familial relationships
 
 
