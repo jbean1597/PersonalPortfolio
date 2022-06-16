@@ -15,6 +15,6 @@ While there is not a "problem" per se to be solved with this week's dataset, tha
 
 ## Day 2: Prepare
 ### Objectives
-
+* 
 
 
