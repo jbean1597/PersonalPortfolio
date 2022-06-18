@@ -26,4 +26,5 @@ While there is not a "problem" per se to be solved with this week's dataset, tha
   - Level of relation between languages through phonetics
   - Level of spread of a laguage through migration and familial relationships
 
-
+## Day 3: Process
+### Objectives 
