@@ -28,3 +28,6 @@ While there is not a "problem" per se to be solved with this week's dataset, tha
 
 ## Day 3: Process
 ### Objectives 
+* Clean data and establish a framework for what to remove/clean and what shouldn't be affected
+* Remove null values
+* Standardize some values in the datasets for easier analysis
