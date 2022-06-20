@@ -31,3 +31,5 @@ While there is not a "problem" per se to be solved with this week's dataset, tha
 * Clean data and establish a framework for what to remove/clean and what shouldn't be affected
 * Remove null values
 * Standardize some values in the datasets for easier analysis
+
+See the whole process of cleaning and processing the data [here](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week_2/Day_3.md)
