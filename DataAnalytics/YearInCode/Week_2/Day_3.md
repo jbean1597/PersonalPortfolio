@@ -22,3 +22,5 @@ Using
 languages_df.isnull().sum()
 ```
 shows that 7/10 of the columns have 86 null values and the Value Footnotes column has 9350 null values. This is due to the Value Footnotes column not being necessary on some values since it is there to add description/classification to them.
+
+hkohjh
