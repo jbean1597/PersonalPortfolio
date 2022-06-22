@@ -21,8 +21,8 @@ Using
 ```python
 languages_df.isnull().sum()
 ```
-shows that 7/10 of the columns have 86 null values and the Value Footnotes column has 9350 null values. This is due to the Value Footnotes column not being necessary on some values since it is there to add description/classification to them.
+shows that 7/10 of the columns have 86 null values and the Value Footnotes column has 9350 null values. This is due to the Value Footnotes column not being necessary on some values since it is there to add description/classification to them. 
 
 
 ### Cleaning Data
-Since the Value Footnotes data is a classification column I added a new classification for the null values. "0" is a new value for the rows which were null to signify a non-need for a classification. 
+Since the Value Footnotes data is a classification column I added a new classification for the null values. "0" is a new value for the rows which were null to signify a non-need for a classification. Along with that some columns needed to have their type changed to match the expected data type, such as the year column having a data type of object instead of int.
