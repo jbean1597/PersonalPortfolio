@@ -33,3 +33,5 @@ While there is not a "problem" per se to be solved with this week's dataset, tha
 * Standardize some values in the datasets for easier analysis
 
 See the whole process of cleaning and processing the data [here](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week_2/Day_3.md)
+
+## Day 4: Analyze
