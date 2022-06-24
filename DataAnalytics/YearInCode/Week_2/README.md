@@ -36,3 +36,7 @@ See the whole process of cleaning and processing the data [here](https://github.
 
 ## Day 4: Analyze
 See the whole process of cleaning and processing the data [here](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week_2/Day_4.md)
+
+## Day 5: Visualize
+See the whole process of cleaning and processing the data [here](https://github.com/jbean1597/PersonalPortfolio/blob/main/DataAnalytics/YearInCode/Week_2/Day_5.md)
+
