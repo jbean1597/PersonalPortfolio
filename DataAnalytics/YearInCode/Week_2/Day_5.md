@@ -2,4 +2,3 @@
 ## Objectives
 * Visualize geographical locations of langauges 
 * Show correlation between languages
-k
