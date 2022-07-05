@@ -40,18 +40,22 @@ shows that 7/10 of the columns have 86 null values and the Value Footnotes colum
 Since the Value Footnotes data is a classification column I added a new classification for the null values. "0" is a new value for the rows which were null to signify a non-need for a classification. Along with that some columns needed to have their type changed to match the expected data type, such as the year column having a data type of object instead of int.
 ```python
 languages_df['Value Footnotes'] = languages_df['Value Footnotes'].fillna(0)
+languages_df = languages_df.dropna()
 languages_df.isnull().sum()
+
 ```
 ```python
-Country or Area     0
-Year                0
-Area               86
-Sex                86
-Language           86
-Record Type        86
-Reliability        86
-Source Year        86
-Value              86
-Value Footnotes     0
+Country or Area    0
+Year               0
+Area               0
+Sex                0
+Language           0
+Record Type        0
+Reliability        0
+Source Year        0
+Value              0
+Value Footnotes    0
 ```
+
+
 
