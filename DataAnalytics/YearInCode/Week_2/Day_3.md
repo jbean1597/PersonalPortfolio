@@ -58,7 +58,7 @@ Value              0
 Value Footnotes    0
 ```
 
-To change the data type of the ```Year``` column, Panda's ```python astype()``` function is called.
+To change the data type of the ```Year``` column, Panda's ```.astype()``` function is called.
 ```python
 languages_df1['Year'] = languages_df1['Year'].astype('int')
 ```
