@@ -20,6 +20,8 @@ This returns a dataframe of **32126 rows by 10 columns**. There are already some
 Using 
 ```python
 languages_df.isnull().sum()
+```
+```python
 Country or Area       0
 Year                  0
 Area                 86
@@ -39,6 +41,8 @@ Since the Value Footnotes data is a classification column I added a new classifi
 ```python
 languages_df['Value Footnotes'] = languages_df['Value Footnotes'].fillna(0)
 languages_df.isnull().sum()
+```
+```python
 Country or Area     0
 Year                0
 Area               86
