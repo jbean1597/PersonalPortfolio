@@ -12,14 +12,15 @@ import numpy as np
 import os
 
 languages_df = pd.read_csv(r'C:\Users\jbean\OneDrive\Desktop\Portfolio_Projects\Year_In_Code\Week_2_Languages\Week_2_Data\raw_UNdata_languages.csv')
-languages_df.info()
+languages_df1 = languages_df.copy()
+languages_df1.info()
 ```
 
 This returns a dataframe of **32126 rows by 10 columns**. There are already some inconsistencies seen in the info section such as the ```Year``` column being an object instead of an ```int```.
 ### Null Values
 Using 
 ```python
-languages_df.isnull().sum()
+languages_df1.isnull().sum()
 ```
 ```python
 Country or Area       0
@@ -39,9 +40,9 @@ shows that 7/10 of the columns have 86 null values and the Value Footnotes colum
 ### Cleaning Data
 Since the Value Footnotes data is a classification column I added a new classification for the null values. "0" is a new value for the rows which were null to signify a non-need for a classification. Along with that some columns needed to have their type changed to match the expected data type, such as the year column having a data type of object instead of int.
 ```python
-languages_df['Value Footnotes'] = languages_df['Value Footnotes'].fillna(0)
-languages_df = languages_df.dropna()
-languages_df.isnull().sum()
+languages_df1['Value Footnotes'] = languages_df1['Value Footnotes'].fillna(0)
+languages_df1 = languages_df1.dropna()
+languages_df1.isnull().sum()
 
 ```
 ```python
@@ -57,5 +58,23 @@ Value              0
 Value Footnotes    0
 ```
 
+To change the data type of the ```Year``` column, Panda's ```python astype()``` function is called.
+```python
+languages_df1['Year'] = languages_df1['Year'].astype('int')
+```
+```python
+ 0   Country or Area  32040 non-null  object 
+ 1   Year             32040 non-null  int32  
+ 2   Area             32040 non-null  object 
+ 3   Sex              32040 non-null  object 
+ 4   Language         32040 non-null  object 
+ 5   Record Type      32040 non-null  object 
+ 6   Reliability      32040 non-null  object 
+ 7   Source Year      32040 non-null  float64
+ 8   Value            32040 non-null  float64
+ 9   Value Footnotes  32040 non-null  object
+```
+
+### Dealing with Duplicates
 
 
