@@ -20,6 +20,16 @@ This returns a dataframe of **32126 rows by 10 columns**. There are already some
 Using 
 ```python
 languages_df.isnull().sum()
+Country or Area       0
+Year                  0
+Area                 86
+Sex                  86
+Language             86
+Record Type          86
+Reliability          86
+Source Year          86
+Value                86
+Value Footnotes    9350
 ```
 shows that 7/10 of the columns have 86 null values and the Value Footnotes column has 9350 null values. This is due to the Value Footnotes column not being necessary on some values since it is there to add description/classification to them. 
 
