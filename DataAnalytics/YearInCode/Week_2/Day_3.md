@@ -76,5 +76,9 @@ languages_df1['Year'] = languages_df1['Year'].astype('int')
 ```
 
 ### Dealing with Duplicates
-
+This dataset is very well maintained in respect to duplicates. With
+```python
+languages_df1.duplicated().sum()
+```
+ we can see that there are no duplicates in the set. Concluding our cleaning and processing steps. The resulting dataset is **32040 rows by 10 columns**
 
